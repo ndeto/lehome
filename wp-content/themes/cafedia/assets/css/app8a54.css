@@ -30,6 +30,414 @@
 /*--------------------------------------------------------------
 # Typography
 --------------------------------------------------------------*/
+.vc_custom_1557922449001 {
+	padding-top: 30px !important;
+	padding-bottom: 30px !important;
+	background-color: #e2e2e1 !important;
+}
+
+.vc_custom_1557922449002 {
+	padding-top: 30px !important;
+	padding-bottom: 30px !important;
+	background-color: #e7e7e5 !important;
+	color: black !important;
+}
+
+.vc_custom_1557922344712 {
+	padding-top: 30px !important;
+	padding-bottom: 30px !important;
+}
+
+.vc_custom_1556378220454 {
+	padding-top: 30px !important;
+	padding-bottom: 30px !important;
+}
+
+.vc_custom_1562750636971 {
+	padding-top: 30px !important;
+	padding-bottom: 30px !important;
+}
+
+.vc_custom_1562620111034 {
+	padding-top: 30px !important;
+	padding-bottom: 30px !important;
+	background-color: #e2e2e1 !important;
+
+}
+
+.vc_custom_1562620165586 {
+	padding-top: 30px !important;
+	padding-bottom: 30px !important;
+}
+
+.vc_custom_1556379709729 {
+	padding-bottom: 30px !important;
+}
+
+.vc_custom_1562620211419 {
+	padding-bottom: 30px !important;
+	background-color: #f8f6f2 !important;
+}
+
+.vc_custom_1552644362406 {
+	padding-right: 0px !important;
+	padding-left: 0px !important;
+}
+
+.vc_custom_1556379467851 {
+	border-top-width: 10px !important;
+	padding-top: 30px !important;
+	/* padding-right: 100px !important; */
+	padding-bottom: 43px !important;
+	/* padding-left: 100px !important; */
+	background-color: #20202F !important;
+	border-top-color: #DFAC18 !important;
+	border-top-style: solid !important;
+}
+
+.vc_custom_1556379517066 {
+	padding-right: 50px !important;
+}
+
+.vc_custom_1552912873146 {
+	padding-right: 0px !important;
+	padding-bottom: 10px !important;
+	padding-left: 0px !important;
+}
+
+site-logo a {
+	max-width: 200px;
+}
+
+#primary-menu li a,
+#primary-menu li .sub-menu li a {
+	font-family: "Cardo";
+	font-weight: 500;
+}
+
+body {
+	font-family: "Cardo";
+	font-weight: 400;
+	font-size: 17px;
+	color: #757370
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-family: "Cardo";
+	font-weight: 700
+}
+
+.section-title .sub-title,
+.call-to-action .call-to-action-wrapper .content-left h4,
+.testimonial-content .content .heading,
+.banner .banner-content .sub-title,
+.banner-static-content .sub-title {
+	font-family: "Great Vibes";
+	font-weight: 400;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	color: #212121
+}
+
+h1 {
+	font-size: 48px;
+}
+
+h2 {
+	font-size: 36px;
+}
+
+h3 {
+	font-size: 24px;
+}
+
+h4 {
+	font-size: 21px;
+}
+
+h5 {
+	font-size: 18px;
+}
+
+h6 {
+	font-size: 16px;
+}
+
+a:hover,
+a:focus,
+a:active,
+.banner .banner-content .sub-title,
+.banner-static-content .sub-title,
+.section-title .sub-title,
+.cafe-btn.nav-btn:hover,
+.swiper-pagination .swiper-pagination-bullet.swiper-pagination-bullet-active,
+.tab-content-child .food-item .content .title a:hover,
+.menu-tabs-child a:hover,
+.menu-tabs-child a.active,
+.tab-content-child .food-item .content .price,
+.widget ul li a:hover,
+.call-to-action .call-to-action-wrapper .content-left h4,
+.testimonial-content .content .heading,
+.copyright-bar .site-info p a:hover,
+.blog-content .entry-title a:hover,
+.blog-post .blog-content .post-meta a:hover,
+.icon-box .icon-container,
+.tab-style-one .gp-tabs-nav li.current a,
+.tab-style-one .gp-tabs-nav li a:hover,
+.footer-social-link li a:hover,
+.site-info-two .copyright-bar .site-info p a:hover,
+.widget_archive li:hover .post-count,
+.pricing-table .price-header .package-name a:hover,
+.pricing-table .price-header .price,
+.menu-filter li:hover,
+.menu-filter li.current,
+#filter-content .food-items .content .title a:hover,
+.banner-top .page-banner-title p,
+.post .blog-content .read-more:hover,
+.post .author a:hover,
+.recent_posts_widget .post-item .post-widget-info .post-widget-title a:hover,
+.post.link-post .blog-content p a:hover,
+.cafedia-isotope-filter li.current,
+.cafedia-isotope-filter li:hover {
+	color: #DFAC18;
+}
+
+.cafe-btn:before,
+.cafe-btn.nav-btn,
+.menu-tabs-child a:after,
+.swiper-pagination .swiper-pagination-bullet.swiper-pagination-bullet-active,
+.wpcf7-form-control.wpcf7-submit.submit-btn:hover,
+.site-header.gp-header-fixed .site-nav .nav-btn:hover:before,
+.return-to-top:hover:after,
+.newsletter-form input[type="submit"]:hover,
+.store-btn.active,
+.store-btn:hover,
+.tab-style-one .gp-tabs-nav::-webkit-scrollbar-thumb,
+.cafedia-gallery-items .cafedia-gallery-item .cafedia-isotope-grid__img .gallery-info .popup-modal:hover,
+.form-submit .cafe-btn:hover {
+	background: #DFAC18;
+}
+
+.input-light .submit-btn:hover {
+	background: #DFAC18 !important;
+}
+.site-logo a {
+	max-width: 200px;
+	}
+	#primary-menu li a, #primary-menu li .sub-menu li a {
+	font-family: "Cardo";
+	font-weight: 500;
+	}body {font-family: "Cardo";font-weight: 400;font-size:20px;color:#827f79}h1, h2, h3, h4, h5, h6 {font-family: "Cardo";font-weight:700}.section-title .sub-title,.call-to-action .call-to-action-wrapper .content-left h4,
+	.testimonial-content .content .heading, .banner .banner-content .sub-title,.banner-static-content .sub-title {font-family: "Great Vibes";font-weight: 400;}h1, h2, h3, h4, h5, h6 {color:#222222}h1 { font-size:48px; }h2 { font-size:36px; }h3 { font-size:24px; }h4 { font-size:21px; }h5 { font-size:18px; }h6 { font-size:16px; }
+	a:hover, a:focus, a:active, .banner .banner-content .sub-title, .banner-static-content .sub-title, .section-title .sub-title, .cafe-btn.nav-btn:hover,
+	.swiper-pagination .swiper-pagination-bullet.swiper-pagination-bullet-active, .tab-content-child .food-item .content .title a:hover,
+	.menu-tabs-child a:hover, .menu-tabs-child a.active, .tab-content-child .food-item .content .price, .widget ul li a:hover,
+	.call-to-action .call-to-action-wrapper .content-left h4, .testimonial-content .content .heading,.copyright-bar .site-info p a:hover,
+	.blog-content .entry-title a:hover, .blog-post .blog-content .post-meta a:hover, .icon-box .icon-container, .tab-style-one .gp-tabs-nav li.current a,
+	.tab-style-one .gp-tabs-nav li a:hover, .footer-social-link li a:hover, .site-info-two .copyright-bar .site-info p a:hover, .widget_archive li:hover .post-count,
+	.pricing-table .price-header .package-name a:hover, .pricing-table .price-header .price, .menu-filter li:hover, .menu-filter li.current,
+	#filter-content .food-items .content .title a:hover, .banner-top .page-banner-title p, .post .blog-content .read-more:hover, .post .author a:hover,
+	.recent_posts_widget .post-item .post-widget-info .post-widget-title a:hover, .post.link-post .blog-content p a:hover, .cafedia-isotope-filter li.current,
+	.cafedia-isotope-filter li:hover {
+	color: #DFAC18;
+	}
+	.cafe-btn:before, .cafe-btn.nav-btn, .menu-tabs-child a:after, .swiper-pagination .swiper-pagination-bullet.swiper-pagination-bullet-active,
+	.wpcf7-form-control.wpcf7-submit.submit-btn:hover, .site-header.gp-header-fixed .site-nav .nav-btn:hover:before, .return-to-top:hover:after,
+	.newsletter-form input[type="submit"]:hover, .store-btn.active, .store-btn:hover, .tab-style-one .gp-tabs-nav::-webkit-scrollbar-thumb,  
+	.cafedia-gallery-items .cafedia-gallery-item .cafedia-isotope-grid__img .gallery-info .popup-modal:hover, .form-submit .cafe-btn:hover {
+	background: #DFAC18;
+	}
+	
+	.input-light .submit-btn:hover {
+	background: #DFAC18 !important;
+	}
+	
+	
+	
+	.pricing-table.featured span:after {
+	border-color: transparent transparent transparent #DFAC18;
+	}
+	
+	.swiper-pagination .swiper-pagination-bullet:before, .testimonial-content .testi-author .testi-avatar:before, .store-btn.active,
+	.store-btn:hover, .cafedia-gallery-items .cafedia-gallery-item .cafedia-isotope-grid__img .gallery-info .popup-modal:hover  {
+	border-color: #DFAC18;
+	}
+	
+	a, .store-btn {
+	color: #222222;
+	}
+	
+	.cafe-btn, .menu-tabs a.active, .menu-tabs a.current, .site-header.gp-header-fixed .site-nav .nav-btn,
+	.newsletter-form input[type="submit"] {
+	background: #222222;
+	}
+	
+	.error-404.not-found a, .store-btn {
+	border-color: #222222;
+	}
+	
+	.menu-tabs a:after {
+	border-top-color: #222222 !important;
+	}
+	
+	
+	#primary-menu li a {
+	color: #333;
+	}
+	
+	#primary-menu li a:hover, #primary-menu li.current_page_ancestor > a, #primary-menu li.current_page_ancestor li.current_page_item a {
+	color: #DFAC18 !important;
+	}
+	
+	#menu-header-menu a:hover {
+	background: #DFAC18 !important;
+	}
+	
+	#primary-menu li .sub-menu li a {
+	color: #878787;
+	}
+	
+	#primary-menu li .sub-menu li a:hover {
+	color: #333 !important;
+	}
+	
+	#primary-menu li .sub-menu {
+	background: #fff;
+	}
+	
+	.site-footera {
+	background: #282e3f;
+	}
+	
+	.site-footer .widget_nav_menu .menu > li > a {
+	color: #d1d2d4;
+	}
+	
+	.site-footer .widget_nav_menu .menu > li > a:hover {
+	color: #DFAC18 !important ;
+	}
+	
+				#preloader {
+					position: fixed;
+					top: 0;
+					left: 0;
+					bottom: 0;
+					right: 0;
+					background-color: #DFAC18;
+					z-index: 999999;
+				}
+	
+				#loader {
+				position: absolute;
+				top: 50%;
+				left: 50%;
+				transform: translate(-50%, -50%);
+			}
+
+
+
+.pricing-table.featured span:after {
+	border-color: transparent transparent transparent #DFAC18;
+}
+
+.swiper-pagination .swiper-pagination-bullet:before,
+.testimonial-content .testi-author .testi-avatar:before,
+.store-btn.active,
+.store-btn:hover,
+.cafedia-gallery-items .cafedia-gallery-item .cafedia-isotope-grid__img .gallery-info .popup-modal:hover {
+	border-color: #DFAC18;
+}
+
+a,
+.store-btn {
+	color: #212121;
+}
+
+.cafe-btn,
+.menu-tabs a.active,
+.menu-tabs a.current,
+.site-header.gp-header-fixed .site-nav .nav-btn,
+.newsletter-form input[type="submit"] {
+	background: black;
+}
+
+.error-404.not-found a,
+.store-btn {
+	border-color: #212121;
+}
+
+.menu-tabs a:after {
+	border-top-color: #212121 !important;
+}
+
+
+#primary-menu li a {
+	color: #333;
+}
+
+#primary-menu li a:hover,
+#primary-menu li.current_page_ancestor>a,
+#primary-menu li.current_page_ancestor li.current_page_item a {
+	color: #DFAC18 !important;
+}
+
+#menu-header-menu a:hover {
+	background: #DFAC18 !important;
+}
+
+#primary-menu li .sub-menu li a {
+	color: #878787;
+}
+
+#primary-menu li .sub-menu li a:hover {
+	color: #333 !important;
+}
+
+#primary-menu li .sub-menu {
+	background: #fff;
+}
+
+.site-footera {
+	background: #282e3f;
+}
+
+.site-footer .widget_nav_menu .menu>li>a {
+	color: #d1d2d4;
+}
+
+.site-footer .widget_nav_menu .menu>li>a:hover {
+	color: #DFAC18 !important;
+}
+
+#preloader {
+	position: fixed;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	background-color: white;
+	z-index: 999999;
+}
+
+#loader {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+
 body,
 button,
 input,
@@ -307,10 +715,20 @@ ol {
 	nav .tabs-inner{
 		display: none!important;
 	}
+	.c2{
+		display: none!important;
+	}
+	.fine{
+		top: 0px!important;
+	}
+	
   }
   
   @media only screen and (min-width: 600px) {
 	nav .tabs-child{
+		display: none!important;
+	}
+	.c21{
 		display: none!important;
 	}
   }
@@ -3720,6 +4138,19 @@ ul.content-wrapp-inner {
 	justify-content: center;
 	display: none;
 }
+/* .sig-mobile{
+	display: none;
+} */
+.fine{
+	top: 100px;
+}
+.sig-mobile img{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 50%;
+}
+
 
 .menu-tabs-child a {
 	font-size: 20px;
@@ -4163,6 +4594,10 @@ ul.content-wrapp-inner {
 		max-width: calc(100% + 3%);
 		display: none;
 	}
+	.c2{
+		display: none;
+	}
+	
 	.menu-tabs-child{
 		display: inline-block;
 		text-align: center;
