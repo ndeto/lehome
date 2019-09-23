@@ -358,6 +358,63 @@ a:active,
 .cafedia-gallery-items .cafedia-gallery-item .cafedia-isotope-grid__img .gallery-info .popup-modal:hover {
 	border-color: #DFAC18;
 }
+.masonry { /* Masonry container */
+    -webkit-column-count: 4;
+  -moz-column-count:4;
+  column-count: 4;
+  -webkit-column-gap: 1em;
+  -moz-column-gap: 1em;
+  column-gap: 1em;
+   margin: 1.5em;
+    padding: 0;
+    -moz-column-gap: 1.5em;
+    -webkit-column-gap: 1.5em;
+    column-gap: 1.5em;
+    font-size: .85em;
+}
+.item {
+    display: inline-block;
+    background: #fff;
+    padding: 1em;
+    margin: 0 0 1.5em;
+    width: 100%;
+	-webkit-transition:1s ease all;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-shadow: 2px 2px 4px 0 #ccc;
+}
+.item img{max-width:100%;}
+
+@media only screen and (max-width: 320px) {
+    .masonry {
+        -moz-column-count: 1;
+        -webkit-column-count: 1;
+        column-count: 1;
+    }
+}
+
+@media only screen and (min-width: 321px) and (max-width: 768px){
+    .masonry {
+        -moz-column-count: 2;
+        -webkit-column-count: 2;
+        column-count: 2;
+    }
+}
+@media only screen and (min-width: 769px) and (max-width: 1200px){
+    .masonry {
+        -moz-column-count: 3;
+        -webkit-column-count: 3;
+        column-count: 3;
+    }
+}
+@media only screen and (min-width: 1201px) {
+    .masonry {
+        -moz-column-count: 4;
+        -webkit-column-count: 4;
+        column-count: 4;
+    }
+}
 
 a,
 .store-btn {
@@ -626,6 +683,14 @@ html {
 *:after {
 	/* Inherit box-sizing to make it easier to change the property for components that leverage other behavior; see http://css-tricks.com/inheriting-box-sizing-probably-slightly-better-best-practice/ */
 	box-sizing: inherit;
+}
+
+.c21{
+	height: 100px!important;
+	width: 100%!important;
+	padding-bottom: 6rem!important;
+margin-bottom: 8rem!important;
+
 }
 
 body {
@@ -4149,6 +4214,7 @@ ul.content-wrapp-inner {
 	margin-left: auto;
 	margin-right: auto;
 	width: 50%;
+	height: auto;
 }
 
 
@@ -4890,21 +4956,17 @@ ul.content-wrapp-inner {
 
 .about-feature-image {
 	position: relative;
-	max-width: 555px;
+	max-width: 50%px;
 }
 
 .about-feature-image .img-one {
 	transform: translateY(62px);
 }
 
-.about-feature-image .img-two {
-	position: absolute;
-	right: -115px;
-	top: -95px;
-}
+
 
 .about-feature-thumb-two {
-	margin: 50px 0 80px;
+	margin: 10px 0 40px;
 	border-bottom: 1px solid #e8e1d7;
 }
 
@@ -4969,13 +5031,13 @@ ul.content-wrapp-inner {
 	}
 
 	.about-feature-image .img-one {
-		max-width: 240px;
+		max-width: 50%px;
 	}
 
 	.about-feature-image .img-two {
 		right: 0;
-		max-width: 270px;
-		top: -40px;
+		max-width: 50%px;
+
 	}
 
 	.about-two .animate-element {
@@ -4998,13 +5060,13 @@ ul.content-wrapp-inner {
 	}
 
 	.about-feature-image .img-one {
-		max-width: 200px;
+		max-width: 50%px;
 	}
 
 	.about-feature-image .img-two {
 		right: -25px;
-		max-width: 250px;
-		top: -40px;
+		max-width: 50%px;
+
 	}
 }
 
@@ -5023,7 +5085,6 @@ ul.content-wrapp-inner {
 
 	.about-feature-image .img-two {
 		max-width: inherit;
-		top: -40px;
 	}
 
 	.about-two .animate-element {
