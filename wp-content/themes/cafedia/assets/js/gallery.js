@@ -30,10 +30,10 @@ $(document).ready(function () {
 
 
     var urls = [
-        "/images/le1.jpg",
-        "/images/le2.jpg",
-        "/images/le3.jpg",
-        "/images/le4.jpg",
+        "../images/le1.jpg",
+        "../images/le2.jpg",
+        "../images/le3.jpg",
+        "../images/le4.jpg",
         "/images/le21.jpg",
         "/images/le22.jpg",
         "/images/le25.jpg",
