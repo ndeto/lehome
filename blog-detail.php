@@ -1,63 +1,4 @@
-<!doctype html>
-<html lang="en-US">
-
-<head>
-	<meta charset="UTF-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-
-	<meta name="keywords"
-		content="The Lord Erroll - Gourmet Restaurant, best , restaurant, fine dining, date night, ladies night, gourmet, blog" />
-	<title>Blog Details - The Lord Erroll</title>
-
-	<link rel="apple-touch-icon" sizes="57x57" href="images/ico/apple-icon-57x57.png">
-	<link rel="apple-touch-icon" sizes="60x60" href="images/ico/apple-icon-60x60.png">
-	<link rel="apple-touch-icon" sizes="72x72" href="images/ico/apple-icon-72x72.png">
-	<link rel="apple-touch-icon" sizes="76x76" href="images/ico/apple-icon-76x76.png">
-	<link rel="apple-touch-icon" sizes="114x114" href="images/ico/apple-icon-114x114.png">
-	<link rel="apple-touch-icon" sizes="120x120" href="images/ico/apple-icon-120x120.png">
-	<link rel="apple-touch-icon" sizes="144x144" href="images/ico/apple-icon-144x144.png">
-	<link rel="apple-touch-icon" sizes="152x152" href="images/ico/apple-icon-152x152.png">
-	<link rel="apple-touch-icon" sizes="180x180" href="images/ico/apple-icon-180x180.png">
-	<link rel="icon" type="image/png" sizes="192x192" href="images/ico/android-icon-192x192.png">
-	<link rel="icon" type="image/png" sizes="32x32" href="images/ico/favicon-32x32.png">
-	<link rel="icon" type="image/png" sizes="96x96" href="images/ico/favicon-96x96.png">
-	<link rel="icon" type="image/png" sizes="16x16" href="images/ico/favicon-16x16.png">
-	<link rel="manifest" href="images/ico/manifest.json">
-	<meta name="msapplication-TileColor" content="#ffffff">
-	<meta name="msapplication-TileImage" content="images/ico/ms-icon-144x144.png">
-	<meta name="theme-color" content="#ffffff">
-
-
-	<link rel='stylesheet' id='wp-block-library-css'
-		href='wp-includes/css/dist/block-library/style.minbb49.css?ver=5.2.2' type='text/css' media='all' />
-	<link rel='stylesheet' id='contact-form-7-css'
-		href='wp-content/plugins/contact-form-7/includes/css/stylesbdeb.css?ver=5.1.3' type='text/css' media='all' />
-	<link rel='stylesheet' id='bootstrap-css'
-		href='wp-content/themes/cafedia/assets/css/bootstrap.mincce7.css?ver=4.0.0' type='text/css' media='all' />
-	<link rel='stylesheet' id='font-awesome-css'
-		href='wp-content/plugins/js_composer/assets/lib/bower/font-awesome/css/font-awesome.mindc24.css?ver=6.0.4'
-		type='text/css' media='all' />
-	<link rel='stylesheet' id='animate-css' href='wp-content/themes/cafedia/assets/css/animatecce7.css?ver=4.0.0'
-		type='text/css' media='all' />
-	<link rel='stylesheet' id='elegant-icons-css'
-		href='wp-content/themes/cafedia/assets/css/elegant-icons.min8a54.css?ver=1.0.0' type='text/css' media='all' />
-	<link rel='stylesheet' id='themeify-icons-css'
-		href='wp-content/themes/cafedia/assets/css/themify-icons8a54.css?ver=1.0.0' type='text/css' media='all' />
-	<link rel='stylesheet' id='datepicker-css'
-		href='wp-content/themes/cafedia/assets/css/datepicker.min8a54.css?ver=1.0.0' type='text/css' media='all' />
-	<link rel='stylesheet' id='swiper-css' href='wp-content/themes/cafedia/assets/css/swiper.mincce7.css?ver=4.0.0'
-		type='text/css' media='all' />
-	<link rel='stylesheet' id='loader-css' href='wp-content/themes/cafedia/assets/css/loader.mincce7.css?ver=4.0.0'
-		type='text/css' media='all' />
-	<link rel='stylesheet' id='cafedia-style-css' href='wp-content/themes/cafedia/assets/css/app8a54.css?ver=1.0.0'
-		type='text/css' media='all' />
-	<link rel='stylesheet' id='dashicons-css' href='wp-includes/css/dashicons.minbb49.css?ver=5.2.2' type='text/css'
-		media='all' />
-	<link rel='stylesheet' id='cafedia-fonts-css'
-		href='https://fonts.googleapis.com/css?family=Cardo%3A300%2C400%2C500%2C600%2C700%7CGreat+Vibes%3A300%2C400&amp;subset=latin%2Clatin-ext&amp;ver=5.2.2'
-		type='text/css' media='all' />
-</head>
+<?php include 'header.php'; ?>
 
 <body
 	class="post-template-default single single-post postid-198 single-format-standard menu-transperant wpb-js-composer js-comp-ver-6.0.4 vc_responsive">
@@ -72,56 +13,7 @@
 		<a class="skip-link screen-reader-text" href="#content">Skip to content</a>
 
 
-		<header id="masthead" class="site-header gp-header-sticky ">
-
-			<div class="container">
-				<div class="header-inner">
-					<div class="site-logo">
-						<a href="index.html" title="Lord Erroll" rel="home" class="logo-main"><img
-								src="images/lord_logo.png" alt=""></a><a href="index.html" title="Lord Erroll"
-							rel="home"></a>
-					</div>
-					<!-- /.site-logo -->
-
-					<div class="toggle-menu">
-						<span class="bar"></span>
-						<span class="bar"></span>
-						<span class="bar"></span>
-					</div>
-
-
-					<nav id="site-navigation" class="site-nav">
-						<div class="close-menu">
-							<i class="ei ei-icon_close"></i>
-						</div>
-
-						<ul id="site-menu" class="site-main-menu">
-							<li
-								class="menu-item menu-item-type-custom menu-item-object-custom current-menu-ancestor current-menu-parent">
-								<a href="index.html">Home</a>
-							</li>
-							<li class="menu-item menu-item-type-post_type menu-item-object-page">
-								<a href="rooms.html">Our Rooms</a></li>
-							<li class="menu-item menu-item-type-custom menu-item-object-custom">
-								<a href="gallery.html">Gallery</a>
-							</li>
-							<li class="menu-item menu-item-type-post_type menu-item-object-page">
-								<a href="index.html#events">Events</a></li>
-							<li class="menu-item menu-item-type-post_type menu-item-object-page">
-								<a href="blog.html">Blog</a></li>
-							<li class="menu-item menu-item-type-custom menu-item-object-custom">
-								<a href="index.html#menu">Menu</a>
-							</li>
-							<li id="menu-item-249" class="menu-item menu-item-type-post_type menu-item-object-page">
-								<a href="index.html#contact">Contact</a>
-							</li>
-						</ul>
-						<div class="right-menu">
-							<a href="index.html#reservation" class="nav-btn cafe-btn">Reservations</a> </div>
-					</nav><!-- #site-navigation -->
-				</div><!-- /.header-inner -->
-			</div><!-- /.container -->
-		</header><!-- #masthead -->
+		<?php include 'menu.php'; ?>
 
 		<section class="page-banner">
 			<div class="banner-top" data-bg-image="http://cafedia.pixelomatic.com/wp-content/uploads/2019/04/blog.jpg">
@@ -142,11 +34,11 @@
 				<div class="container">
 					<div class="breadcrumb-inner">
 						<div class="home-link">
-							<a href="index.html"><i class="ei ei-icon_house_alt"></i></a>
+							<a href="index.php"><i class="ei ei-icon_house_alt"></i></a>
 						</div>
 
 						<ul class="cafedia_breadcrumbs list-inline">
-							<li><a href="index.html">Home</a> | <a href="blog.html">Blogs</a> | Details</li>
+							<li><a href="index.php">Home</a> | <a href="blog.php">Blogs</a> | Details</li>
 						</ul>
 
 					</div><!-- /.breadcrumb-wrapper -->
@@ -187,7 +79,7 @@
 												<header class="entry-header">
 
 													<div class="post-meta">
-														<span class="posted-on"><a href="index.html"
+														<span class="posted-on"><a href="index.php"
 																rel="bookmark"><time class="entry-date published"
 																	datetime="2019-03-29T04:50:13+00:00">March 29,
 																	2019</time><time class="updated"
@@ -196,8 +88,8 @@
 
 
 													<div class="categories">
-														<a href="categories.html" rel="category tag">Cooking</a> <a
-															href="categories.html" rel="category tag">Uncategorized</a>
+														<a href="categories.php" rel="category tag">Cooking</a> <a
+															href="categories.php" rel="category tag">Uncategorized</a>
 													</div>
 
 												</header><!-- .entry-header -->
@@ -257,8 +149,8 @@
 													<div class="entry-footer clearfix">
 
 														<div class="tagcloud">
-															<div class="tagcloud">Tags: <a href="tags.html"
-																	rel="tag">Lord Erroll</a> <a href="tags.html"
+															<div class="tagcloud">Tags: <a href="tags.php"
+																	rel="tag">Lord Erroll</a> <a href="tags.php"
 																	rel="tag">Recipe</a></div>
 														</div>
 
@@ -408,50 +300,50 @@
 										<div id="categories-2" class="widget widget_categories">
 											<h3 class="widget-title">Category</h3>
 											<ul>
-												<li class="cat-item cat-item-2"><a href="categories.html">Cooking</a>
+												<li class="cat-item cat-item-2"><a href="categories.php">Cooking</a>
 												</li>
-												<li class="cat-item cat-item-3"><a href="categories.html">Food</a>
+												<li class="cat-item cat-item-3"><a href="categories.php">Food</a>
 												</li>
-												<li class="cat-item cat-item-4"><a href="categories.html">Fresh
+												<li class="cat-item cat-item-4"><a href="categories.php">Fresh
 														Products</a>
 												</li>
-												<li class="cat-item cat-item-5"><a href="categories.html">Link</a>
+												<li class="cat-item cat-item-5"><a href="categories.php">Link</a>
 												</li>
-												<li class="cat-item cat-item-7"><a href="categories.html">Tutorial</a>
+												<li class="cat-item cat-item-7"><a href="categories.php">Tutorial</a>
 												</li>
 												<li class="cat-item cat-item-1"><a
-														href="categories.html">Uncategorized</a>
+														href="categories.php">Uncategorized</a>
 												</li>
 											</ul>
 										</div>
 										<div id="archives-2" class="widget widget_archive">
 											<h3 class="widget-title">Archive</h3>
 											<ul>
-												<li><a href='index.html'>May 2019</a></li>
-												<li><a href='index.html'>March 2019</a></li>
+												<li><a href='index.php'>May 2019</a></li>
+												<li><a href='index.php'>March 2019</a></li>
 											</ul>
 										</div>
 										<div id="tag_cloud-2" class="widget widget_tag_cloud">
 											<h3 class="widget-title">Tags</h3>
-											<div class="tagcloud"><a href="tags.html"
+											<div class="tagcloud"><a href="tags.php"
 													class="tag-cloud-link tag-link-8 tag-link-position-1"
 													style="font-size: 22pt;" aria-label="Cafedia (4 items)">Lord
 													Erroll</a>
-												<a href="tags.html"
+												<a href="tags.php"
 													class="tag-cloud-link tag-link-9 tag-link-position-2"
 													style="font-size: 18.5pt;"
 													aria-label="Dinning (3 items)">Dinning</a>
-												<a href="tags.html"
+												<a href="tags.php"
 													class="tag-cloud-link tag-link-10 tag-link-position-3"
 													style="font-size: 14.3pt;" aria-label="Food (2 items)">Food</a>
-												<a href="tags.html"
+												<a href="tags.php"
 													class="tag-cloud-link tag-link-12 tag-link-position-4"
 													style="font-size: 18.5pt;" aria-label="Recipe (3 items)">Recipe</a>
-												<a href="tags.html"
+												<a href="tags.php"
 													class="tag-cloud-link tag-link-13 tag-link-position-5"
 													style="font-size: 8pt;"
 													aria-label="Restaurant (1 item)">Restaurant</a>
-												<a href="tags.html"
+												<a href="tags.php"
 													class="tag-cloud-link tag-link-14 tag-link-position-6"
 													style="font-size: 18.5pt;"
 													aria-label="Spaghetti (3 items)">Spaghetti</a></div>
@@ -476,7 +368,7 @@
 									<div id="respond" class="comment-respond">
 										<h3 id="reply-title" class="comment-reply-title">Leave a comment <small><a
 													rel="nofollow" id="cancel-comment-reply-link"
-													href="index.html#respond" style="display:none;">Cancel
+													href="index.php#respond" style="display:none;">Cancel
 													Reply</a></small></h3>
 										<form action="#" method="post" id="commentform" class="comment-form" novalidate>
 
@@ -510,90 +402,4 @@
 
 
 
-		<footer id="site_footer " class="site-footer">
-			<div class="footer-wrapper">
-				<div class="container">
-					<aside class="widget-area row">
-						<div class="widget-column footer-widget-1 col-lg-4">
-
-						</div>
-						<div class="widget-column footer-widget-2 col-lg-4">
-							<div id="cafedia_addones_newsletter_widget-1"
-								class="widget widget_cafedia_addones_newsletter_widget text-center">
-								<h3 class="widget-title">Get in Touch</h3>
-								<div class="newsletter-wrapper widget-newsletter">
-									<form action="#" method="post" class="newsletter-form"
-										data-cafediaform="newsletter-subscribe">
-										<input type="hidden" name="action" value="cafedia_mailchimp_subscribe">
-										<input type="email" name="email" class="form-control"
-											placeholder="Your Mail ..." required>
-										<button type="submit" name="submit" id="newsletter-submit"
-											class="cafe-btn-outline">
-											<span>Subscribe</span>
-											<i class="fa fa-circle-o-notch fa-spin"></i>
-										</button>
-										<div class="clearfix"></div>
-										<div class="form-result alert">
-											<div class="content"></div>
-										</div><!-- /.form-result-->
-									</form><!-- /.newsletter-form -->
-
-									<div class="footer-social-wrap">
-										<h4 class="title">Follow Us:</h4>
-										<ul class="footer-social-link">
-											<li>
-												<a href="https://www.facebook.com/TheLordErroll/" title="Facebook">
-													<i class="fa fa-facebook"></i>
-												</a>
-											</li>
-											<li>
-												<a href="https://www.instagram.com/lorderroll/" title="Instagram">
-													<i class="fa fa-instagram"></i>
-												</a>
-											</li>
-										</ul>
-									</div><!-- /.footer-social-wrap -->
-								</div><!-- /.transparent-form -->
-							</div>
-						</div>
-						<div class="widget-column footer-widget-3 col-lg-4">
-
-						</div>
-					</aside><!-- .widget-area -->
-
-				</div><!-- .container -->
-			</div><!-- /.footer-wrapper -->
-			<div class="copyright-bar">
-				<div class="container">
-					<div class="site-info">
-						<p>
-							&copy; 2019 The Lord Erroll.</a> </p>
-					</div><!-- .site-info -->
-				</div><!-- /.container -->
-			</div><!-- /.copyright-bar -->
-		</footer><!-- #site-footer -->
-
-
-	</div><!-- #page -->
-
-	<script type='text/javascript' src='wp-includes/js/jquery/jquery4a5f.js?ver=1.12.4-wp'></script>
-	<script type='text/javascript' src='wp-includes/js/jquery/jquery-migrate.min330a.js?ver=1.4.1'></script>
-	<script type='text/javascript'
-		src='wp-content/plugins/contact-form-7/includes/js/scriptsbdeb.js?ver=5.1.3'></script>
-	<script type='text/javascript' src='wp-content/themes/cafedia/assets/js/popper.min8a54.js?ver=1.0.0'></script>
-	<script type='text/javascript' src='wp-content/themes/cafedia/assets/js/bootstrap.min5b31.js?ver=4.3.1'></script>
-	<script type='text/javascript' src='wp-content/themes/cafedia/assets/js/wow.mincfa9.js?ver=1.1.2'></script>
-	<script type='text/javascript'
-		src='wp-content/plugins/js_composer/assets/lib/bower/isotope/dist/isotope.pkgd.mindc24.js?ver=6.0.4'></script>
-	<script type='text/javascript' src='wp-content/themes/cafedia/assets/js/background8a54.js?ver=1.0.0'></script>
-	<script type='text/javascript' src='wp-content/themes/cafedia/assets/js/loader.min8a54.js?ver=1.0.0'></script>
-	<script type='text/javascript' src='wp-content/themes/cafedia/assets/js/modernizr-custom8a54.js?ver=1.0.0'></script>
-	<script type='text/javascript' src='wp-content/themes/cafedia/assets/js/datepicker.min8a54.js?ver=1.0.0'></script>
-	<script type='text/javascript' src='wp-content/themes/cafedia/assets/js/datepicker.en8a54.js?ver=1.0.0'></script>
-	<script type='text/javascript' src='wp-content/themes/cafedia/assets/js/app8a54.js?ver=1.0.0'></script>
-	<script type='text/javascript' src='wp-includes/js/comment-reply.minbb49.js?ver=5.2.2'></script>
-	<script type='text/javascript' src='wp-includes/js/wp-embed.minbb49.js?ver=5.2.2'></script>
-
-</body>
-
-</html>
+		<?php include 'footer.php'; ?>

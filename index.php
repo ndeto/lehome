@@ -1,74 +1,9 @@
-<!doctype html>
-<html lang="en-US">
-
-<head>
-	<meta charset="UTF-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-
-	<meta name="keywords"
-		content="The Lord Erroll - Gourmet Restaurant, best , restaurant, fine dining, date night, ladies night, gourmet" />
-	<title>The Lord Erroll - Gourmet Restaurant</title>
-
-	<link rel="apple-touch-icon" sizes="57x57" href="images/ico/apple-icon-57x57.png">
-	<link rel="apple-touch-icon" sizes="60x60" href="images/ico/apple-icon-60x60.png">
-	<link rel="apple-touch-icon" sizes="72x72" href="images/ico/apple-icon-72x72.png">
-	<link rel="apple-touch-icon" sizes="76x76" href="images/ico/apple-icon-76x76.png">
-	<link rel="apple-touch-icon" sizes="114x114" href="images/ico/apple-icon-114x114.png">
-	<link rel="apple-touch-icon" sizes="120x120" href="images/ico/apple-icon-120x120.png">
-	<link rel="apple-touch-icon" sizes="144x144" href="images/ico/apple-icon-144x144.png">
-	<link rel="apple-touch-icon" sizes="152x152" href="images/ico/apple-icon-152x152.png">
-	<link rel="apple-touch-icon" sizes="180x180" href="images/ico/apple-icon-180x180.png">
-	<link rel="icon" type="image/png" sizes="192x192" href="images/ico/android-icon-192x192.png">
-	<link rel="icon" type="image/png" sizes="32x32" href="images/ico/favicon-32x32.png">
-	<link rel="icon" type="image/png" sizes="96x96" href="images/ico/favicon-96x96.png">
-	<link rel="icon" type="image/png" sizes="16x16" href="images/ico/favicon-16x16.png">
-	<link rel="manifest" href="images/ico/manifest.json">
-	<meta name="msapplication-TileColor" content="#ffffff">
-	<meta name="msapplication-TileImage" content="images/ico/ms-icon-144x144.png">
-	<meta name="theme-color" content="#ffffff">
-
-	<link rel='stylesheet' id='wp-block-library-css'
-		href='wp-includes/css/dist/block-library/style.minbb49.css?ver=5.2.2' type='text/css' media='all' />
-	<link rel='stylesheet' id='contact-form-7-css'
-		href='wp-content/plugins/contact-form-7/includes/css/stylesbdeb.css?ver=5.1.3' type='text/css' media='all' />
-	<link rel='stylesheet' id='bootstrap-css'
-		href='wp-content/themes/cafedia/assets/css/bootstrap.mincce7.css?ver=4.0.0' type='text/css' media='all' />
-	<link rel='stylesheet' id='font-awesome-css'
-		href='wp-content/plugins/js_composer/assets/lib/bower/font-awesome/css/font-awesome.mindc24.css?ver=6.0.4'
-		type='text/css' media='all' />
-	<link rel='stylesheet' id='animate-css' href='wp-content/themes/cafedia/assets/css/animatecce7.css?ver=4.0.0'
-		type='text/css' media='all' />
-	<link rel='stylesheet' id='elegant-icons-css'
-		href='wp-content/themes/cafedia/assets/css/elegant-icons.min8a54.css?ver=1.0.0' type='text/css' media='all' />
-	<link rel='stylesheet' id='themeify-icons-css'
-		href='wp-content/themes/cafedia/assets/css/themify-icons8a54.css?ver=1.0.0' type='text/css' media='all' />
-	<link rel='stylesheet' id='datepicker-css'
-		href='wp-content/themes/cafedia/assets/css/datepicker.min8a54.css?ver=1.0.0' type='text/css' media='all' />
-	<link rel='stylesheet' id='swiper-css' href='wp-content/themes/cafedia/assets/css/swiper.mincce7.css?ver=4.0.0'
-		type='text/css' media='all' />
-	<link rel='stylesheet' id='loader-css' href='wp-content/themes/cafedia/assets/css/loader.mincce7.css?ver=4.0.0'
-		type='text/css' media='all' />
-	<link rel='stylesheet' id='cafedia-style-css' href='wp-content/themes/cafedia/assets/css/app8a54.css?ver=1.0.0'
-		type='text/css' media='all' />
-	<link rel='stylesheet' id='dashicons-css' href='wp-includes/css/dashicons.minbb49.css?ver=5.2.2' type='text/css'
-		media='all' />
-	<link rel='stylesheet' id='cafedia-fonts-css'
-		href='https://fonts.googleapis.com/css?family=Cardo%3A300%2C400%2C500%2C600%2C700%7CGreat+Vibes%3A300%2C400&amp;subset=latin%2Clatin-ext&amp;ver=5.2.2'
-		type='text/css' media='all' />
-	<!--[if lt IE 9]>
-<link rel='stylesheet' id='vc_lte_ie9-css'  href='http://cafedia.pixelomatic.com/wp-content/plugins/js_composer/assets/css/vc_lte_ie9.min.css?ver=6.0.4' type='text/css' media='screen' />
-<![endif]-->
-	<link rel='stylesheet' id='js_composer_front-css'
-		href='wp-content/plugins/js_composer/assets/css/js_composer.mindc24.css?ver=6.0.4' type='text/css'
-		media='all' />
-</head>
+<?php include 'header.php'; ?>
 
 <body
 	class="home page-template page-template-tmp-page page-template-tmp-page-php page page-id-790 menu-transperant wpb-js-composer js-comp-ver-6.0.4 vc_responsive">
 
-
-	<!-- Page pre loader -->
+  <!-- Page pre loader -->
 	<div id="preloader">
 		<div class="loader-holder">
 			<div class="frame">
@@ -76,64 +11,10 @@
 			</div>
 		</div>
 	</div>
-
-
-	<a href="#site-content" data-type="section-switch" class="return-to-top"><i class="fa fa-chevron-up"></i></a>
-
-
 	<div id="site-content" class="site">
 
 
-		<header id="masthead" class="site-header gp-header-sticky ">
-
-			<div class="container">
-				<div class="header-inner">
-					<div class="site-logo">
-						<a href="index.html" title="Lord Erroll" rel="home" class="logo-main"><img
-								src="images/lord_logo.png" alt=""></a><a href="index.html" title="Lord Erroll"
-							rel="home"></a>
-					</div>
-					<!-- /.site-logo -->
-
-					<div class="toggle-menu">
-						<span class="bar"></span>
-						<span class="bar"></span>
-						<span class="bar"></span>
-					</div>
-
-
-					<nav id="site-navigation" class="site-nav">
-						<div class="close-menu">
-							<i class="ei ei-icon_close"></i>
-						</div>
-
-						<ul id="site-menu" class="site-main-menu">
-							<li
-								class="menu-item menu-item-type-custom menu-item-object-custom current-menu-ancestor current-menu-parent">
-								<a href="#">Home</a>
-							</li>
-							<li class="menu-item menu-item-type-post_type menu-item-object-page">
-								<a href="rooms.html">Our Rooms</a></li>
-							<li class="menu-item menu-item-type-custom menu-item-object-custom">
-								<a href="gallery.html">Gallery</a>
-							</li>
-							<li class="menu-item menu-item-type-post_type menu-item-object-page">
-								<a href="#events">Events</a></li>
-							<li class="menu-item menu-item-type-post_type menu-item-object-page">
-								<a href="blog.html">Blog</a></li>
-							<li class="menu-item menu-item-type-custom menu-item-object-custom">
-								<a href="#menu">Menu</a>
-							</li>
-							<li id="menu-item-249" class="menu-item menu-item-type-post_type menu-item-object-page">
-								<a href="#contact">Contact</a>
-							</li>
-						</ul>
-						<div class="right-menu">
-							<a href="#reservation" class="nav-btn cafe-btn">Reservations</a> </div>
-					</nav><!-- #site-navigation -->
-				</div><!-- /.header-inner -->
-			</div><!-- /.container -->
-		</header><!-- #masthead -->
+<?php include 'menu.php'; ?>
 
 		<div id="content" class="site-content">
 
@@ -2029,7 +1910,7 @@
 													excuse
 													my ... </p>
 
-												<a href="blog.html" class="read-more">
+												<a href="blog.php" class="read-more">
 													Read More <i class="ei ei-arrow_right"></i>
 												</a>
 
@@ -2067,7 +1948,7 @@
 													excuse
 													my ... </p>
 
-												<a href="blog.html" class="read-more">
+												<a href="blog.php" class="read-more">
 													Read More <i class="ei ei-arrow_right"></i>
 												</a>
 
@@ -2106,7 +1987,7 @@
 													excuse
 													my ... </p>
 
-												<a href="blog.html" class="read-more">
+												<a href="blog.php" class="read-more">
 													Read More <i class="ei ei-arrow_right"></i>
 												</a>
 
@@ -2365,175 +2246,4 @@
 				</div>
 
 			</div>
-			<div class="vc_row vc-row-wrapper before-bg vc-row-responsive-5d5fb9d05e3ba box_width_content vc_custom_1562620211419"
-				id="contact">
-				<div class="wpb_row content-wrapp-inner">
-					<div id="column-5d5fb9d05e77c"
-						class="col-lg-3 col-md-6 col-sm-6 columns vc-column-extra-class-5d5fb9d05e7b5">
-						<div class="wpb_wrapper">
-							<div id="cafedia-5d5fb9d05e9e6" class="icon-box  style-one  ">
-								<div class="icon-container"><i class=" ti-home" aria-hidden="true"></i></div>
-								<!-- /.icon -->
-								<div class="content">
-									<h3 class="title">Address</h3>
-									<p>89 Ruaka Rd, Runda Estate, <br> P. O. Box 999-00621, Village Market,
-										Nairobi, Kenya
-									</p>
-								</div><!-- /.content -->
-							</div><!-- /.icon_box -->
-						</div>
-					</div>
-
-					<div id="column-5d5fb9d05ed33"
-						class="col-lg-3 col-md-6 col-sm-6 columns vc-column-extra-class-5d5fb9d05ed6b">
-						<div class="wpb_wrapper">
-							<div id="cafedia-5d5fb9d05ef27" class="icon-box  style-one  ">
-								<div class="icon-container"><i class=" ei ei-phone" aria-hidden="true"></i>
-								</div>
-								<!-- /.icon -->
-								<div class="content">
-									<h3 class="title">Phone</h3>
-									<p>+254-721-920820</p>
-								</div><!-- /.content -->
-							</div><!-- /.icon_box -->
-						</div>
-					</div>
-
-					<div id="column-5d5fb9d05f237"
-						class="col-lg-3 col-md-6 col-sm-6 columns vc-column-extra-class-5d5fb9d05f25d">
-						<div class="wpb_wrapper">
-							<div id="cafedia-5d5fb9d05f478" class="icon-box  style-one  ">
-								<div class="icon-container"><i class=" ei ei-clock_alt" aria-hidden="true"></i>
-								</div>
-								<!-- /.icon -->
-								<div class="content">
-									<h3 class="title">Working Hour</h3>
-									<p>Weekdays: 7:00am - 12:00am <br>
-										Saturday: 8:00am - 12:00am <br>
-										Sunday: 9:00am - 11:00pm</p>
-								</div><!-- /.content -->
-							</div><!-- /.icon_box -->
-						</div>
-					</div>
-
-					<div id="column-5d5fb9d05f7b8"
-						class="col-lg-3 col-md-6 col-sm-6 columns vc-column-extra-class-5d5fb9d05f7f0">
-						<div class="wpb_wrapper">
-							<div id="cafedia-5d5fb9d05f9a2" class="icon-box  style-one  ">
-								<div class="icon-container"><i class=" ei ei-mail_alt" aria-hidden="true"></i>
-								</div>
-								<!-- /.icon -->
-								<div class="content">
-									<h3 class="title">Email</h3>
-									<p>reservations@lord-erroll.com</p>
-								</div><!-- /.content -->
-							</div><!-- /.icon_box -->
-						</div>
-					</div>
-				</div>
-
-			</div>
-
-
-		</div><!-- #content -->
-
-
-
-		<footer id="site_footer " class="site-footer">
-			<div class="footer-wrapper">
-				<div class="container">
-					<aside class="widget-area row">
-						<div class="widget-column footer-widget-1 col-lg-4">
-
-						</div>
-						<div class="widget-column footer-widget-2 col-lg-4">
-							<div id="cafedia_addones_newsletter_widget-1"
-								class="widget widget_cafedia_addones_newsletter_widget text-center">
-								<h3 class="widget-title">Get in Touch</h3>
-								<div class="newsletter-wrapper widget-newsletter">
-									<form action="#" method="post" class="newsletter-form"
-										data-cafediaform="newsletter-subscribe">
-										<input type="hidden" name="action" value="cafedia_mailchimp_subscribe">
-										<input type="email" name="email" class="form-control"
-											placeholder="Your Mail ..." required>
-										<button type="submit" name="submit" id="newsletter-submit"
-											class="cafe-btn-outline">
-											<span>Subscribe</span>
-											<i class="fa fa-circle-o-notch fa-spin"></i>
-										</button>
-										<div class="clearfix"></div>
-										<div class="form-result alert">
-											<div class="content"></div>
-										</div><!-- /.form-result-->
-									</form><!-- /.newsletter-form -->
-
-									<div class="footer-social-wrap">
-										<h4 class="title">Follow Us:</h4>
-										<ul class="footer-social-link">
-											<li>
-												<a href="https://www.facebook.com/TheLordErroll/" title="Facebook">
-													<i class="fa fa-facebook"></i>
-												</a>
-											</li>
-											<li>
-												<a href="https://www.instagram.com/lorderroll/" title="Instagram">
-													<i class="fa fa-instagram"></i>
-												</a>
-											</li>
-										</ul>
-									</div><!-- /.footer-social-wrap -->
-								</div><!-- /.transparent-form -->
-							</div>
-						</div>
-						<div class="widget-column footer-widget-3 col-lg-4">
-
-						</div>
-					</aside><!-- .widget-area -->
-
-				</div><!-- .container -->
-			</div><!-- /.footer-wrapper -->
-			<div class="copyright-bar">
-				<div class="container">
-					<div class="site-info">
-						<p>
-							&copy; 2019 The Lord Erroll.</a> </p>
-					</div><!-- .site-info -->
-				</div><!-- /.container -->
-			</div><!-- /.copyright-bar -->
-		</footer><!-- #site-footer -->
-
-
-
-	</div><!-- #page -->
-
-	<script type='text/javascript' src='wp-includes/js/jquery/jquery4a5f.js?ver=1.12.4-wp'></script>
-	<script type='text/javascript' src='wp-includes/js/jquery/jquery-migrate.min330a.js?ver=1.4.1'></script>
-	<script src="js/partner.js"></script>
-	<script type='text/javascript'
-		src='wp-content/plugins/contact-form-7/includes/js/scriptsbdeb.js?ver=5.1.3'></script>
-	<script type='text/javascript' src='wp-content/themes/cafedia/assets/js/popper.min8a54.js?ver=1.0.0'></script>
-	<script type='text/javascript' src='wp-content/themes/cafedia/assets/js/bootstrap.min5b31.js?ver=4.3.1'></script>
-	<script type='text/javascript' src='wp-content/themes/cafedia/assets/js/wow.mincfa9.js?ver=1.1.2'></script>
-	<script type='text/javascript'
-		src='wp-content/plugins/js_composer/assets/lib/bower/isotope/dist/isotope.pkgd.mindc24.js?ver=6.0.4'></script>
-	<script type='text/javascript' src='wp-content/themes/cafedia/assets/js/background8a54.js?ver=1.0.0'></script>
-	<script type='text/javascript' src='wp-content/themes/cafedia/assets/js/loader.min8a54.js?ver=1.0.0'></script>
-	<script type='text/javascript' src='wp-content/themes/cafedia/assets/js/modernizr-custom8a54.js?ver=1.0.0'></script>
-	<script type='text/javascript' src='wp-content/themes/cafedia/assets/js/datepicker.min8a54.js?ver=1.0.0'></script>
-	<script type='text/javascript' src='wp-content/themes/cafedia/assets/js/datepicker.en8a54.js?ver=1.0.0'></script>
-	<script type='text/javascript' src='wp-content/themes/cafedia/assets/js/app8a54.js?ver=1.0.0'></script>
-	<script type='text/javascript' src='wp-includes/js/wp-embed.minbb49.js?ver=5.2.2'></script>
-	<script type='text/javascript'
-		src='wp-content/plugins/js_composer/assets/js/dist/js_composer_front.mindc24.js?ver=6.0.4'></script>
-	<script type='text/javascript'
-		src='wp-content/themes/cafedia/assets/js/swiper.jquery.minccfb.js?ver=3.4.2'></script>
-	<script type='text/javascript' src='wp-content/themes/cafedia/assets/js/SwiperRunner.min8a54.js?ver=1.0.0'></script>
-	<script type='text/javascript'
-		src='wp-content/themes/cafedia/assets/js/jquery.parallax-scroll8a54.js?ver=1.0.0'></script>
-	<script type='text/javascript'
-		src='wp-content/themes/cafedia/assets/js/jquery.parallax-1.1.38a54.js?ver=1.0.0'></script>
-	<script type='text/javascript' src='wp-content/themes/cafedia/assets/js/gmap3.min8a54.js?ver=1.0.0'></script>
-</body>
-
-
-</html>
+			<?php include 'footer.php'; ?>
