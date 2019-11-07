@@ -1,7 +1,7 @@
 <?php include 'header.php'; ?>
 <style>
 	#Gallery {
-		margin-top: 30px;
+		padding-top: 0px;
 		max-width: 1500px;
 		margin-left: auto;
 		margin-right: auto;
@@ -229,7 +229,7 @@ http://photoswipe.com/latest/photoswipe.css
 			</div><!-- /.banner-top -->
 		</section><!-- /.page_header -->
 
-		<div id="content" class="site-content" style="padding:5em 0">
+		<div id="content" class="site-content" style="padding:5em 0;padding-top:0 !important">
 
 			<script>
 				document.addEventListener('DOMContentLoaded', function () {
@@ -238,67 +238,26 @@ http://photoswipe.com/latest/photoswipe.css
 			</script>
 
 			<div id="Gallery">
-				<div class="gallery-item">
-					<a href="images/le1.jpg"><img src="images/le1.jpg" alt="Main Entrance" /></a>
-				</div>
-				<div class="gallery-item">
-					<a href="images/le2.jpg"><img src="images/le2.jpg" alt="Drinks" /></a>
-				</div>
-				<div class="gallery-item">
-					<a href="images/le3.jpg"><img src="images/le3.jpg" alt="Lady Idina" /></a>
-				</div>
-				<div class="gallery-item">
-					<a href="images/le4.jpg"><img src="images/le4.jpg" alt="Awards" /></a>
-				</div>
-				<div class="gallery-item">
-					<a href="images/le5.jpg"><img src="images/le5.jpg" alt="Live Band" /></a>
-				</div>
-				<div class="gallery-item">
-					<a href="images/le6.jpg"><img src="images/le6.jpg" alt="Food" /></a>
-				</div>
-				<div class="gallery-item">
-					<a href="images/le7.jpg"><img src="images/le7.jpg" alt="Outdoor" /></a>
-				</div>
-				<div class="gallery-item">
-					<a href="images/le8.jpg"><img src="images/le8.jpg" alt="Outdoor" /></a>
-				</div>
-				<div class="gallery-item">
-					<a href="images/le9.jpg"><img src="images/le9.jpg" alt="Food" /></a>
-				</div>
-				<div class="gallery-item">
-					<a href="images/le10.jpg"><img src="images/le10.jpg" alt="Food" /></a>
-				</div>
-				<div class="gallery-item">
-					<a href="images/le32.jpg"><img src="images/le32.jpg" alt="food" /></a>
-				</div>
-				<div class="gallery-item">
-					<a href="images/le33.jpg"><img src="images/le33.jpg" alt="Food" /></a>
-				</div>
-				<div class="gallery-item">
-					<a href="images/le34.jpg"><img src="images/le34.jpg" alt="food" /></a>
-				</div>
-				<div class="gallery-item">
-					<a href="images/le37.jpg"><img src="images/le37.jpg" alt="food" /></a>
-				</div>
-				<div class="gallery-item">
-					<a href="images/le39.jpg"><img src="images/le39.jpg" alt="food" /></a>
-				</div>
-				<div class="gallery-item">
-					<a href="images/le43.jpg"><img src="images/le43.jpg" alt="food" /></a>
-				</div>
-				<div class="gallery-item">
-					<a href="images/le46.jpg"><img src="images/le46.jpg" alt="food" /></a>
-				</div>
-				<div class="gallery-item">
-					<a href="images/le48.jpg"><img src="images/le48.jpg" alt="Outdoor" /></a>
-				</div>
-				<div class="gallery-item">
-					<a href="images/le50.jpg"><img src="images/le50.jpg" alt="indoor" /></a>
-				</div>
-				<div class="gallery-item">
-					<a href="images/awards/le28.jpg"><img src="images/awards/le28.jpg" alt="food" /></a>
-				</div>
+				<br>
+				<?php
+				include 'connection.php';
+				$sql="select * from gallery";
+				$result=mysqli_query($connection,$sql);
+				if($result){
+					while($row=$result->fetch_assoc()){
+						$photo=$row['photo'];
+						$name=$row['name'];
+						 ?>
+						<div class="gallery-item" style="margin-top:0em">
+							<a href="images/uploads/<?php echo $photo; ?>"><img src="images/uploads/<?php echo $photo; ?>" alt="<?php echo $name; ?>" /></a>
+						</div>
+				<?php
+					}
+				}
+				 ?>
+				 <div class="clearfix"></div>
 			</div>
+
 			<!--end #Gallery-->
 
 		</div><!-- #content -->

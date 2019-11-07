@@ -333,47 +333,46 @@
 												aria-labelledby="appetizers-tab">
 												<div class="row">
 
-													<div class="col-lg-6">
-														<div class="food-item">
-															<div class="food-thumb">
-																<a href="#">
-																	<img width="170" height="110"
-																		src="wp-content/uploads/2019/03/2-5-170x110.jpg"
-																		class="attachment-cafedia-foodmenu-thumb-tab size-cafedia-foodmenu-thumb-tab wp-post-image"
-																		alt="" /> <span><i
-																			class="ei ei-icon_plus"></i></span>
-																</a>
+													<?php
+													include 'connection.php';
+													$sql="select * from special_menu where active='True' and category='Appetizers' order by id desc limit 2";
+													$result=mysqli_query($connection,$sql);
+													if($result){
+														while($row=$result->fetch_assoc()){
+															$name=$row['name'];
+															$photo=$row['photo'];
+															$price=$row['price'];
+															$description=$row['description'];
+															$id=$row['id']; ?>
+															<div class="col-lg-6">
+																<div class="food-item">
+																	<div class="food-thumb">
+																		<a href="#" data-toggle="modal" data-target="#modal-<?php echo $id; ?>">
+																			<img width="170" height="110"
+																				src="images/uploads/<?php echo $photo; ?>"
+																				class="attachment-cafedia-foodmenu-thumb-tab size-cafedia-foodmenu-thumb-tab wp-post-image"
+																				alt="" /> <span><i
+																					class="ei ei-icon_plus"></i></span>
+																		</a>
+																	</div>
+
+																	<div class="content">
+																		<h3 class="title"><a href="#"><?php echo $name; ?></a></h3>
+
+																		<span class="price">Kes. <?php echo $price; ?></span>
+																		<p>Have a look</p>
+																	</div>
+																</div><!-- /.food-item -->
 															</div>
 
-															<div class="content">
-																<h3 class="title"><a href="#">Appetizer_1</a></h3>
+															<?php
+														}
+													}
+													 ?>
 
-																<span class="price">2000.00</span>
-																<p>Have a look</p>
-															</div>
-														</div><!-- /.food-item -->
-													</div>
 
-													<div class="col-lg-6">
-														<div class="food-item">
-															<div class="food-thumb">
-																<a href="#">
-																	<img width="170" height="110"
-																		src="wp-content/uploads/2019/03/7-1-170x110.jpg"
-																		class="attachment-cafedia-foodmenu-thumb-tab size-cafedia-foodmenu-thumb-tab wp-post-image"
-																		alt="" /> <span><i
-																			class="ei ei-icon_plus"></i></span>
-																</a>
-															</div>
 
-															<div class="content">
-																<h3 class="title"><a href="#">Appetizer_2</a></h3>
 
-																<span class="price">1400.00</span>
-																<p>Have a look 2</p>
-															</div>
-														</div><!-- /.food-item -->
-													</div>
 
 												</div><!-- /.row -->
 											</div>
@@ -381,48 +380,42 @@
 												aria-labelledby="main-tab">
 												<div class="row">
 
-													<div class="col-lg-6">
-														<div class="food-item">
-															<div class="food-thumb">
-																<a href="#">
-																	<img width="170" height="110"
-																		src="wp-content/uploads/2019/03/6-1-170x110.jpg"
-																		class="attachment-cafedia-foodmenu-thumb-tab size-cafedia-foodmenu-thumb-tab wp-post-image"
-																		alt="" /> <span><i
-																			class="ei ei-icon_plus"></i></span>
-																</a>
+													<?php
+													include 'connection.php';
+													$sql="select * from special_menu where active='True' and category='Main Course' order by id desc limit 2";
+													$result=mysqli_query($connection,$sql);
+													if($result){
+														while($row=$result->fetch_assoc()){
+															$name=$row['name'];
+															$photo=$row['photo'];
+															$price=$row['price'];
+															$description=$row['description'];
+															$id=$row['id']; ?>
+															<div class="col-lg-6">
+																<div class="food-item">
+																	<div class="food-thumb">
+																		<a href="#" data-toggle="modal" data-target="#modal-<?php echo $id; ?>">
+																			<img width="170" height="110"
+																				src="images/uploads/<?php echo $photo; ?>"
+																				class="attachment-cafedia-foodmenu-thumb-tab size-cafedia-foodmenu-thumb-tab wp-post-image"
+																				alt="" /> <span><i
+																					class="ei ei-icon_plus"></i></span>
+																		</a>
+																	</div>
+
+																	<div class="content">
+																		<h3 class="title"><a href="#"><?php echo $name; ?></a></h3>
+
+																		<span class="price">Kes. <?php echo $price; ?></span>
+																		<p>Have a look</p>
+																	</div>
+																</div><!-- /.food-item -->
 															</div>
 
-															<div class="content">
-																<h3 class="title"><a href="#">Main_1</a>
-																</h3>
-
-																<span class="price">1016.00</span>
-																<p>Have a look</p>
-															</div>
-														</div><!-- /.food-item -->
-													</div>
-
-													<div class="col-lg-6">
-														<div class="food-item">
-															<div class="food-thumb">
-																<a href="#">
-																	<img width="170" height="110"
-																		src="wp-content/uploads/2019/03/5-2-170x110.jpg"
-																		class="attachment-cafedia-foodmenu-thumb-tab size-cafedia-foodmenu-thumb-tab wp-post-image"
-																		alt="" /> <span><i
-																			class="ei ei-icon_plus"></i></span>
-																</a>
-															</div>
-
-															<div class="content">
-																<h3 class="title"><a href="#">Main_2</a></h3>
-
-																<span class="price">1010.00</span>
-																<p>Have a look again</p>
-															</div>
-														</div><!-- /.food-item -->
-													</div>
+															<?php
+														}
+													}
+													 ?>
 
 
 
@@ -432,47 +425,42 @@
 												aria-labelledby="salads-tab">
 												<div class="row">
 
-													<div class="col-lg-6">
-														<div class="food-item">
-															<div class="food-thumb">
-																<a href="#">
-																	<img width="170" height="110"
-																		src="wp-content/uploads/2019/03/2-5-170x110.jpg"
-																		class="attachment-cafedia-foodmenu-thumb-tab size-cafedia-foodmenu-thumb-tab wp-post-image"
-																		alt="" /> <span><i
-																			class="ei ei-icon_plus"></i></span>
-																</a>
+													<?php
+													include 'connection.php';
+													$sql="select * from special_menu where active='True' and category='Salads & More' order by id desc limit 2";
+													$result=mysqli_query($connection,$sql);
+													if($result){
+														while($row=$result->fetch_assoc()){
+															$name=$row['name'];
+															$photo=$row['photo'];
+															$price=$row['price'];
+															$description=$row['description'];
+															$id=$row['id']; ?>
+															<div class="col-lg-6">
+																<div class="food-item">
+																	<div class="food-thumb">
+																		<a href="#" data-toggle="modal" data-target="#modal-<?php echo $id; ?>">
+																			<img width="170" height="110"
+																				src="images/uploads/<?php echo $photo; ?>"
+																				class="attachment-cafedia-foodmenu-thumb-tab size-cafedia-foodmenu-thumb-tab wp-post-image"
+																				alt="" /> <span><i
+																					class="ei ei-icon_plus"></i></span>
+																		</a>
+																	</div>
+
+																	<div class="content">
+																		<h3 class="title"><a href="#"><?php echo $name; ?></a></h3>
+
+																		<span class="price">Kes. <?php echo $price; ?></span>
+																		<p>Have a look</p>
+																	</div>
+																</div><!-- /.food-item -->
 															</div>
 
-															<div class="content">
-																<h3 class="title"><a href="#">Salads_1</a></h3>
-
-																<span class="price">1020.00</span>
-																<p>Have a look</p>
-															</div>
-														</div><!-- /.food-item -->
-													</div>
-
-													<div class="col-lg-6">
-														<div class="food-item">
-															<div class="food-thumb">
-																<a href="#">
-																	<img width="170" height="110"
-																		src="wp-content/uploads/2019/03/7-1-170x110.jpg"
-																		class="attachment-cafedia-foodmenu-thumb-tab size-cafedia-foodmenu-thumb-tab wp-post-image"
-																		alt="" /> <span><i
-																			class="ei ei-icon_plus"></i></span>
-																</a>
-															</div>
-
-															<div class="content">
-																<h3 class="title"><a href="#">Salads_2</a></h3>
-
-																<span class="price">1014.00</span>
-																<p>Have a look again</p>
-															</div>
-														</div><!-- /.food-item -->
-													</div>
+															<?php
+														}
+													}
+													 ?>
 
 
 												</div><!-- /.row -->
@@ -481,48 +469,42 @@
 												aria-labelledby="desserts-tab">
 												<div class="row">
 
-													<div class="col-lg-6">
-														<div class="food-item">
-															<div class="food-thumb">
-																<a href="#">
-																	<img width="170" height="110"
-																		src="wp-content/uploads/2019/03/6-1-170x110.jpg"
-																		class="attachment-cafedia-foodmenu-thumb-tab size-cafedia-foodmenu-thumb-tab wp-post-image"
-																		alt="" /> <span><i
-																			class="ei ei-icon_plus"></i></span>
-																</a>
+													<?php
+													include 'connection.php';
+													$sql="select * from special_menu where active='True' and category='Desserts' order by id desc limit 2";
+													$result=mysqli_query($connection,$sql);
+													if($result){
+														while($row=$result->fetch_assoc()){
+															$name=$row['name'];
+															$photo=$row['photo'];
+															$price=$row['price'];
+															$description=$row['description'];
+															$id=$row['id']; ?>
+															<div class="col-lg-6">
+																<div class="food-item">
+																	<div class="food-thumb">
+																		<a href="#" data-toggle="modal" data-target="#modal-<?php echo $id; ?>">
+																			<img width="170" height="110"
+																				src="images/uploads/<?php echo $photo; ?>"
+																				class="attachment-cafedia-foodmenu-thumb-tab size-cafedia-foodmenu-thumb-tab wp-post-image"
+																				alt="" /> <span><i
+																					class="ei ei-icon_plus"></i></span>
+																		</a>
+																	</div>
+
+																	<div class="content">
+																		<h3 class="title"><a href="#"><?php echo $name; ?></a></h3>
+
+																		<span class="price">Kes. <?php echo $price; ?></span>
+																		<p>Have a look</p>
+																	</div>
+																</div><!-- /.food-item -->
 															</div>
 
-															<div class="content">
-																<h3 class="title"><a href="#">Desserts_1</a>
-																</h3>
-
-																<span class="price">1016.00</span>
-																<p>Have a look</p>
-															</div>
-														</div><!-- /.food-item -->
-													</div>
-
-													<div class="col-lg-6">
-														<div class="food-item">
-															<div class="food-thumb">
-																<a href="#">
-																	<img width="170" height="110"
-																		src="wp-content/uploads/2019/03/5-2-170x110.jpg"
-																		class="attachment-cafedia-foodmenu-thumb-tab size-cafedia-foodmenu-thumb-tab wp-post-image"
-																		alt="" /> <span><i
-																			class="ei ei-icon_plus"></i></span>
-																</a>
-															</div>
-
-															<div class="content">
-																<h3 class="title"><a href="#">Desserts_2</a></h3>
-
-																<span class="price">1010.00</span>
-																<p>Have a look again</p>
-															</div>
-														</div><!-- /.food-item -->
-													</div>
+															<?php
+														}
+													}
+													 ?>
 
 
 
@@ -532,47 +514,42 @@
 												aria-labelledby="drinks-tab">
 												<div class="row">
 
-													<div class="col-lg-6">
-														<div class="food-item">
-															<div class="food-thumb">
-																<a href="#">
-																	<img width="170" height="110"
-																		src="wp-content/uploads/2019/03/2-5-170x110.jpg"
-																		class="attachment-cafedia-foodmenu-thumb-tab size-cafedia-foodmenu-thumb-tab wp-post-image"
-																		alt="" /> <span><i
-																			class="ei ei-icon_plus"></i></span>
-																</a>
+													<?php
+													include 'connection.php';
+													$sql="select * from special_menu where active='True' and category='Drinks & Cocktails' order by id desc limit 2";
+													$result=mysqli_query($connection,$sql);
+													if($result){
+														while($row=$result->fetch_assoc()){
+															$name=$row['name'];
+															$photo=$row['photo'];
+															$price=$row['price'];
+															$description=$row['description'];
+															$id=$row['id']; ?>
+															<div class="col-lg-6">
+																<div class="food-item">
+																	<div class="food-thumb">
+																		<a href="#" data-toggle="modal" data-target="#modal-<?php echo $id; ?>">
+																			<img width="170" height="110"
+																				src="images/uploads/<?php echo $photo; ?>"
+																				class="attachment-cafedia-foodmenu-thumb-tab size-cafedia-foodmenu-thumb-tab wp-post-image"
+																				alt="" /> <span><i
+																					class="ei ei-icon_plus"></i></span>
+																		</a>
+																	</div>
+
+																	<div class="content">
+																		<h3 class="title"><a href="#"><?php echo $name; ?></a></h3>
+
+																		<span class="price">Kes. <?php echo $price; ?></span>
+																		<p>Have a look</p>
+																	</div>
+																</div><!-- /.food-item -->
 															</div>
 
-															<div class="content">
-																<h3 class="title"><a href="#">Drinks_1</a></h3>
-
-																<span class="price">1020.00</span>
-																<p>Have a look</p>
-															</div>
-														</div><!-- /.food-item -->
-													</div>
-
-													<div class="col-lg-6">
-														<div class="food-item">
-															<div class="food-thumb">
-																<a href="#">
-																	<img width="170" height="110"
-																		src="wp-content/uploads/2019/03/7-1-170x110.jpg"
-																		class="attachment-cafedia-foodmenu-thumb-tab size-cafedia-foodmenu-thumb-tab wp-post-image"
-																		alt="" /> <span><i
-																			class="ei ei-icon_plus"></i></span>
-																</a>
-															</div>
-
-															<div class="content">
-																<h3 class="title"><a href="#">Drinks_2</a></h3>
-
-																<span class="price">1014.00</span>
-																<p>HAve a look again</p>
-															</div>
-														</div><!-- /.food-item -->
-													</div>
+															<?php
+														}
+													}
+													 ?>
 
 												</div><!-- /.row -->
 											</div>
@@ -608,47 +585,42 @@
 												aria-labelledby="appetizers-tab">
 												<div class="row">
 
-													<div class="col-lg-6">
-														<div class="food-item">
-															<div class="food-thumb">
-																<a href="#">
-																	<img width="170" height="110"
-																		src="wp-content/uploads/2019/03/2-5-170x110.jpg"
-																		class="attachment-cafedia-foodmenu-thumb-tab size-cafedia-foodmenu-thumb-tab wp-post-image"
-																		alt="" /> <span><i
-																			class="ei ei-icon_plus"></i></span>
-																</a>
+													<?php
+													include 'connection.php';
+													$sql="select * from special_menu where active='True' and category='Appetizers' order by id desc limit 2";
+													$result=mysqli_query($connection,$sql);
+													if($result){
+														while($row=$result->fetch_assoc()){
+															$name=$row['name'];
+															$photo=$row['photo'];
+															$price=$row['price'];
+															$description=$row['description'];
+															$id=$row['id']; ?>
+															<div class="col-lg-6">
+																<div class="food-item">
+																	<div class="food-thumb">
+																		<a href="#" data-toggle="modal" data-target="#modal-<?php echo $id; ?>">
+																			<img width="170" height="110"
+																				src="images/uploads/<?php echo $photo; ?>"
+																				class="attachment-cafedia-foodmenu-thumb-tab size-cafedia-foodmenu-thumb-tab wp-post-image"
+																				alt="" /> <span><i
+																					class="ei ei-icon_plus"></i></span>
+																		</a>
+																	</div>
+
+																	<div class="content">
+																		<h3 class="title"><a href="#"><?php echo $name; ?></a></h3>
+
+																		<span class="price">Kes. <?php echo $price; ?></span>
+																		<p>Have a look</p>
+																	</div>
+																</div><!-- /.food-item -->
 															</div>
 
-															<div class="content">
-																<h3 class="title"><a href="#">Appetizer_1</a></h3>
-
-																<span class="price">2000.00</span>
-																<p>Have a look</p>
-															</div>
-														</div><!-- /.food-item -->
-													</div>
-
-													<div class="col-lg-6">
-														<div class="food-item">
-															<div class="food-thumb">
-																<a href="#">
-																	<img width="170" height="110"
-																		src="wp-content/uploads/2019/03/7-1-170x110.jpg"
-																		class="attachment-cafedia-foodmenu-thumb-tab size-cafedia-foodmenu-thumb-tab wp-post-image"
-																		alt="" /> <span><i
-																			class="ei ei-icon_plus"></i></span>
-																</a>
-															</div>
-
-															<div class="content">
-																<h3 class="title"><a href="#">Appetizer_2</a></h3>
-
-																<span class="price">1400.00</span>
-																<p>Have a look 2</p>
-															</div>
-														</div><!-- /.food-item -->
-													</div>
+															<?php
+														}
+													}
+													 ?>
 
 												</div><!-- /.row -->
 											</div>
@@ -656,48 +628,42 @@
 												aria-labelledby="main-tab">
 												<div class="row">
 
-													<div class="col-lg-6">
-														<div class="food-item">
-															<div class="food-thumb">
-																<a href="#">
-																	<img width="170" height="110"
-																		src="wp-content/uploads/2019/03/6-1-170x110.jpg"
-																		class="attachment-cafedia-foodmenu-thumb-tab size-cafedia-foodmenu-thumb-tab wp-post-image"
-																		alt="" /> <span><i
-																			class="ei ei-icon_plus"></i></span>
-																</a>
+													<?php
+													include 'connection.php';
+													$sql="select * from special_menu where active='True' and category='Main Course' order by id desc limit 2";
+													$result=mysqli_query($connection,$sql);
+													if($result){
+														while($row=$result->fetch_assoc()){
+															$name=$row['name'];
+															$photo=$row['photo'];
+															$price=$row['price'];
+															$description=$row['description'];
+															$id=$row['id']; ?>
+															<div class="col-lg-6">
+																<div class="food-item">
+																	<div class="food-thumb">
+																		<a href="#" data-toggle="modal" data-target="#modal-<?php echo $id; ?>">
+																			<img width="170" height="110"
+																				src="images/uploads/<?php echo $photo; ?>"
+																				class="attachment-cafedia-foodmenu-thumb-tab size-cafedia-foodmenu-thumb-tab wp-post-image"
+																				alt="" /> <span><i
+																					class="ei ei-icon_plus"></i></span>
+																		</a>
+																	</div>
+
+																	<div class="content">
+																		<h3 class="title"><a href="#"><?php echo $name; ?></a></h3>
+
+																		<span class="price">Kes. <?php echo $price; ?></span>
+																		<p>Have a look</p>
+																	</div>
+																</div><!-- /.food-item -->
 															</div>
 
-															<div class="content">
-																<h3 class="title"><a href="#">Main_1</a>
-																</h3>
-
-																<span class="price">1016.00</span>
-																<p>Have a look</p>
-															</div>
-														</div><!-- /.food-item -->
-													</div>
-
-													<div class="col-lg-6">
-														<div class="food-item">
-															<div class="food-thumb">
-																<a href="#">
-																	<img width="170" height="110"
-																		src="wp-content/uploads/2019/03/5-2-170x110.jpg"
-																		class="attachment-cafedia-foodmenu-thumb-tab size-cafedia-foodmenu-thumb-tab wp-post-image"
-																		alt="" /> <span><i
-																			class="ei ei-icon_plus"></i></span>
-																</a>
-															</div>
-
-															<div class="content">
-																<h3 class="title"><a href="#">Main_2</a></h3>
-
-																<span class="price">1010.00</span>
-																<p>Have a look again</p>
-															</div>
-														</div><!-- /.food-item -->
-													</div>
+															<?php
+														}
+													}
+													 ?>
 
 
 
@@ -707,47 +673,42 @@
 												aria-labelledby="salads-tab">
 												<div class="row">
 
-													<div class="col-lg-6">
-														<div class="food-item">
-															<div class="food-thumb">
-																<a href="#">
-																	<img width="170" height="110"
-																		src="wp-content/uploads/2019/03/2-5-170x110.jpg"
-																		class="attachment-cafedia-foodmenu-thumb-tab size-cafedia-foodmenu-thumb-tab wp-post-image"
-																		alt="" /> <span><i
-																			class="ei ei-icon_plus"></i></span>
-																</a>
+													<?php
+													include 'connection.php';
+													$sql="select * from special_menu where active='True' and category='Salads & More' order by id desc limit 2";
+													$result=mysqli_query($connection,$sql);
+													if($result){
+														while($row=$result->fetch_assoc()){
+															$name=$row['name'];
+															$photo=$row['photo'];
+															$price=$row['price'];
+															$description=$row['description'];
+															$id=$row['id']; ?>
+															<div class="col-lg-6">
+																<div class="food-item">
+																	<div class="food-thumb">
+																		<a href="#" data-toggle="modal" data-target="#modal-<?php echo $id; ?>">
+																			<img width="170" height="110"
+																				src="images/uploads/<?php echo $photo; ?>"
+																				class="attachment-cafedia-foodmenu-thumb-tab size-cafedia-foodmenu-thumb-tab wp-post-image"
+																				alt="" /> <span><i
+																					class="ei ei-icon_plus"></i></span>
+																		</a>
+																	</div>
+
+																	<div class="content">
+																		<h3 class="title"><a href="#"><?php echo $name; ?></a></h3>
+
+																		<span class="price">Kes. <?php echo $price; ?></span>
+																		<p>Have a look</p>
+																	</div>
+																</div><!-- /.food-item -->
 															</div>
 
-															<div class="content">
-																<h3 class="title"><a href="#">Salads_1</a></h3>
-
-																<span class="price">1020.00</span>
-																<p>Have a look</p>
-															</div>
-														</div><!-- /.food-item -->
-													</div>
-
-													<div class="col-lg-6">
-														<div class="food-item">
-															<div class="food-thumb">
-																<a href="#">
-																	<img width="170" height="110"
-																		src="wp-content/uploads/2019/03/7-1-170x110.jpg"
-																		class="attachment-cafedia-foodmenu-thumb-tab size-cafedia-foodmenu-thumb-tab wp-post-image"
-																		alt="" /> <span><i
-																			class="ei ei-icon_plus"></i></span>
-																</a>
-															</div>
-
-															<div class="content">
-																<h3 class="title"><a href="#">Salads_2</a></h3>
-
-																<span class="price">1014.00</span>
-																<p>Have a look again</p>
-															</div>
-														</div><!-- /.food-item -->
-													</div>
+															<?php
+														}
+													}
+													 ?>
 
 
 												</div><!-- /.row -->
@@ -756,48 +717,42 @@
 												aria-labelledby="desserts-tab">
 												<div class="row">
 
-													<div class="col-lg-6">
-														<div class="food-item">
-															<div class="food-thumb">
-																<a href="#">
-																	<img width="170" height="110"
-																		src="wp-content/uploads/2019/03/6-1-170x110.jpg"
-																		class="attachment-cafedia-foodmenu-thumb-tab size-cafedia-foodmenu-thumb-tab wp-post-image"
-																		alt="" /> <span><i
-																			class="ei ei-icon_plus"></i></span>
-																</a>
+													<?php
+													include 'connection.php';
+													$sql="select * from special_menu where active='True' and category='Desserts' order by id desc limit 2";
+													$result=mysqli_query($connection,$sql);
+													if($result){
+														while($row=$result->fetch_assoc()){
+															$name=$row['name'];
+															$photo=$row['photo'];
+															$price=$row['price'];
+															$description=$row['description'];
+															$id=$row['id']; ?>
+															<div class="col-lg-6">
+																<div class="food-item">
+																	<div class="food-thumb">
+																		<a href="#" data-toggle="modal" data-target="#modal-<?php echo $id; ?>">
+																			<img width="170" height="110"
+																				src="images/uploads/<?php echo $photo; ?>"
+																				class="attachment-cafedia-foodmenu-thumb-tab size-cafedia-foodmenu-thumb-tab wp-post-image"
+																				alt="" /> <span><i
+																					class="ei ei-icon_plus"></i></span>
+																		</a>
+																	</div>
+
+																	<div class="content">
+																		<h3 class="title"><a href="#"><?php echo $name; ?></a></h3>
+
+																		<span class="price">Kes. <?php echo $price; ?></span>
+																		<p>Have a look</p>
+																	</div>
+																</div><!-- /.food-item -->
 															</div>
 
-															<div class="content">
-																<h3 class="title"><a href="#">Desserts_1</a>
-																</h3>
-
-																<span class="price">1016.00</span>
-																<p>Have a look</p>
-															</div>
-														</div><!-- /.food-item -->
-													</div>
-
-													<div class="col-lg-6">
-														<div class="food-item">
-															<div class="food-thumb">
-																<a href="#">
-																	<img width="170" height="110"
-																		src="wp-content/uploads/2019/03/5-2-170x110.jpg"
-																		class="attachment-cafedia-foodmenu-thumb-tab size-cafedia-foodmenu-thumb-tab wp-post-image"
-																		alt="" /> <span><i
-																			class="ei ei-icon_plus"></i></span>
-																</a>
-															</div>
-
-															<div class="content">
-																<h3 class="title"><a href="#">Desserts_2</a></h3>
-
-																<span class="price">1010.00</span>
-																<p>Have a look again</p>
-															</div>
-														</div><!-- /.food-item -->
-													</div>
+															<?php
+														}
+													}
+													 ?>
 
 
 
@@ -807,47 +762,42 @@
 												aria-labelledby="drinks-tab">
 												<div class="row">
 
-													<div class="col-lg-6">
-														<div class="food-item">
-															<div class="food-thumb">
-																<a href="#">
-																	<img width="170" height="110"
-																		src="wp-content/uploads/2019/03/2-5-170x110.jpg"
-																		class="attachment-cafedia-foodmenu-thumb-tab size-cafedia-foodmenu-thumb-tab wp-post-image"
-																		alt="" /> <span><i
-																			class="ei ei-icon_plus"></i></span>
-																</a>
+													<?php
+													include 'connection.php';
+													$sql="select * from special_menu where active='True' and category='Drinks & Cocktails' order by id desc limit 2";
+													$result=mysqli_query($connection,$sql);
+													if($result){
+														while($row=$result->fetch_assoc()){
+															$name=$row['name'];
+															$photo=$row['photo'];
+															$price=$row['price'];
+															$description=$row['description'];
+															$id=$row['id']; ?>
+															<div class="col-lg-6">
+																<div class="food-item">
+																	<div class="food-thumb">
+																		<a href="#" data-toggle="modal" data-target="#modal-<?php echo $id; ?>">
+																			<img width="170" height="110"
+																				src="images/uploads/<?php echo $photo; ?>"
+																				class="attachment-cafedia-foodmenu-thumb-tab size-cafedia-foodmenu-thumb-tab wp-post-image"
+																				alt="" /> <span><i
+																					class="ei ei-icon_plus"></i></span>
+																		</a>
+																	</div>
+
+																	<div class="content">
+																		<h3 class="title"><a href="#"><?php echo $name; ?></a></h3>
+
+																		<span class="price">Kes. <?php echo $price; ?></span>
+																		<p>Have a look</p>
+																	</div>
+																</div><!-- /.food-item -->
 															</div>
 
-															<div class="content">
-																<h3 class="title"><a href="#">Drinks_1</a></h3>
-
-																<span class="price">1020.00</span>
-																<p>Have a look</p>
-															</div>
-														</div><!-- /.food-item -->
-													</div>
-
-													<div class="col-lg-6">
-														<div class="food-item">
-															<div class="food-thumb">
-																<a href="#">
-																	<img width="170" height="110"
-																		src="wp-content/uploads/2019/03/7-1-170x110.jpg"
-																		class="attachment-cafedia-foodmenu-thumb-tab size-cafedia-foodmenu-thumb-tab wp-post-image"
-																		alt="" /> <span><i
-																			class="ei ei-icon_plus"></i></span>
-																</a>
-															</div>
-
-															<div class="content">
-																<h3 class="title"><a href="#">Drinks_2</a></h3>
-
-																<span class="price">1014.00</span>
-																<p>HAve a look again</p>
-															</div>
-														</div><!-- /.food-item -->
-													</div>
+															<?php
+														}
+													}
+													 ?>
 
 												</div><!-- /.row -->
 											</div>
@@ -883,48 +833,42 @@
 											<div class="tab-pane fade show active" id="appetizers" role="tabpanel"
 												aria-labelledby="appetizers-tab">
 												<div class="row">
+													<?php
+													include 'connection.php';
+													$sql="select * from special_menu where active='True' and category='Appetizers' order by id desc limit 2";
+													$result=mysqli_query($connection,$sql);
+													if($result){
+														while($row=$result->fetch_assoc()){
+															$name=$row['name'];
+															$photo=$row['photo'];
+															$price=$row['price'];
+															$description=$row['description'];
+															$id=$row['id']; ?>
+															<div class="col-lg-6">
+																<div class="food-item">
+																	<div class="food-thumb">
+																		<a href="#" data-toggle="modal" data-target="#modal-<?php echo $id; ?>">
+																			<img width="170" height="110"
+																				src="images/uploads/<?php echo $photo; ?>"
+																				class="attachment-cafedia-foodmenu-thumb-tab size-cafedia-foodmenu-thumb-tab wp-post-image"
+																				alt="" /> <span><i
+																					class="ei ei-icon_plus"></i></span>
+																		</a>
+																	</div>
 
-													<div class="col-lg-6">
-														<div class="food-item">
-															<div class="food-thumb">
-																<a href="#">
-																	<img width="170" height="110"
-																		src="wp-content/uploads/2019/03/2-5-170x110.jpg"
-																		class="attachment-cafedia-foodmenu-thumb-tab size-cafedia-foodmenu-thumb-tab wp-post-image"
-																		alt="" /> <span><i
-																			class="ei ei-icon_plus"></i></span>
-																</a>
+																	<div class="content">
+																		<h3 class="title"><a href="#"><?php echo $name; ?></a></h3>
+
+																		<span class="price">Kes. <?php echo $price; ?></span>
+																		<p>Have a look</p>
+																	</div>
+																</div><!-- /.food-item -->
 															</div>
 
-															<div class="content">
-																<h3 class="title"><a href="#">Appetizer_1</a></h3>
-
-																<span class="price">2000.00</span>
-																<p>Have a look</p>
-															</div>
-														</div><!-- /.food-item -->
-													</div>
-
-													<div class="col-lg-6">
-														<div class="food-item">
-															<div class="food-thumb">
-																<a href="#">
-																	<img width="170" height="110"
-																		src="wp-content/uploads/2019/03/7-1-170x110.jpg"
-																		class="attachment-cafedia-foodmenu-thumb-tab size-cafedia-foodmenu-thumb-tab wp-post-image"
-																		alt="" /> <span><i
-																			class="ei ei-icon_plus"></i></span>
-																</a>
-															</div>
-
-															<div class="content">
-																<h3 class="title"><a href="#">Appetizer_2</a></h3>
-
-																<span class="price">1400.00</span>
-																<p>Have a look 2</p>
-															</div>
-														</div><!-- /.food-item -->
-													</div>
+															<?php
+														}
+													}
+													 ?>
 
 												</div><!-- /.row -->
 											</div>
@@ -932,48 +876,42 @@
 												aria-labelledby="main-tab">
 												<div class="row">
 
-													<div class="col-lg-6">
-														<div class="food-item">
-															<div class="food-thumb">
-																<a href="#">
-																	<img width="170" height="110"
-																		src="wp-content/uploads/2019/03/6-1-170x110.jpg"
-																		class="attachment-cafedia-foodmenu-thumb-tab size-cafedia-foodmenu-thumb-tab wp-post-image"
-																		alt="" /> <span><i
-																			class="ei ei-icon_plus"></i></span>
-																</a>
+													<?php
+													include 'connection.php';
+													$sql="select * from special_menu where active='True' and category='Main Course' order by id desc limit 2";
+													$result=mysqli_query($connection,$sql);
+													if($result){
+														while($row=$result->fetch_assoc()){
+															$name=$row['name'];
+															$photo=$row['photo'];
+															$price=$row['price'];
+															$description=$row['description'];
+															$id=$row['id']; ?>
+															<div class="col-lg-6">
+																<div class="food-item">
+																	<div class="food-thumb">
+																		<a href="#" data-toggle="modal" data-target="#modal-<?php echo $id; ?>">
+																			<img width="170" height="110"
+																				src="images/uploads/<?php echo $photo; ?>"
+																				class="attachment-cafedia-foodmenu-thumb-tab size-cafedia-foodmenu-thumb-tab wp-post-image"
+																				alt="" /> <span><i
+																					class="ei ei-icon_plus"></i></span>
+																		</a>
+																	</div>
+
+																	<div class="content">
+																		<h3 class="title"><a href="#"><?php echo $name; ?></a></h3>
+
+																		<span class="price">Kes. <?php echo $price; ?></span>
+																		<p>Have a look</p>
+																	</div>
+																</div><!-- /.food-item -->
 															</div>
 
-															<div class="content">
-																<h3 class="title"><a href="#">Main_1</a>
-																</h3>
-
-																<span class="price">1016.00</span>
-																<p>Have a look</p>
-															</div>
-														</div><!-- /.food-item -->
-													</div>
-
-													<div class="col-lg-6">
-														<div class="food-item">
-															<div class="food-thumb">
-																<a href="#">
-																	<img width="170" height="110"
-																		src="wp-content/uploads/2019/03/5-2-170x110.jpg"
-																		class="attachment-cafedia-foodmenu-thumb-tab size-cafedia-foodmenu-thumb-tab wp-post-image"
-																		alt="" /> <span><i
-																			class="ei ei-icon_plus"></i></span>
-																</a>
-															</div>
-
-															<div class="content">
-																<h3 class="title"><a href="#">Main_2</a></h3>
-
-																<span class="price">1010.00</span>
-																<p>Have a look again</p>
-															</div>
-														</div><!-- /.food-item -->
-													</div>
+															<?php
+														}
+													}
+													 ?>
 
 
 
@@ -983,47 +921,42 @@
 												aria-labelledby="salads-tab">
 												<div class="row">
 
-													<div class="col-lg-6">
-														<div class="food-item">
-															<div class="food-thumb">
-																<a href="#">
-																	<img width="170" height="110"
-																		src="wp-content/uploads/2019/03/2-5-170x110.jpg"
-																		class="attachment-cafedia-foodmenu-thumb-tab size-cafedia-foodmenu-thumb-tab wp-post-image"
-																		alt="" /> <span><i
-																			class="ei ei-icon_plus"></i></span>
-																</a>
+													<?php
+													include 'connection.php';
+													$sql="select * from special_menu where active='True' and category='Salads & More' order by id desc limit 2";
+													$result=mysqli_query($connection,$sql);
+													if($result){
+														while($row=$result->fetch_assoc()){
+															$name=$row['name'];
+															$photo=$row['photo'];
+															$price=$row['price'];
+															$description=$row['description'];
+															$id=$row['id']; ?>
+															<div class="col-lg-6">
+																<div class="food-item">
+																	<div class="food-thumb">
+																		<a href="#" data-toggle="modal" data-target="#modal-<?php echo $id; ?>">
+																			<img width="170" height="110"
+																				src="images/uploads/<?php echo $photo; ?>"
+																				class="attachment-cafedia-foodmenu-thumb-tab size-cafedia-foodmenu-thumb-tab wp-post-image"
+																				alt="" /> <span><i
+																					class="ei ei-icon_plus"></i></span>
+																		</a>
+																	</div>
+
+																	<div class="content">
+																		<h3 class="title"><a href="#"><?php echo $name; ?></a></h3>
+
+																		<span class="price">Kes. <?php echo $price; ?></span>
+																		<p>Have a look</p>
+																	</div>
+																</div><!-- /.food-item -->
 															</div>
 
-															<div class="content">
-																<h3 class="title"><a href="#">Salads_1</a></h3>
-
-																<span class="price">1020.00</span>
-																<p>Have a look</p>
-															</div>
-														</div><!-- /.food-item -->
-													</div>
-
-													<div class="col-lg-6">
-														<div class="food-item">
-															<div class="food-thumb">
-																<a href="#">
-																	<img width="170" height="110"
-																		src="wp-content/uploads/2019/03/7-1-170x110.jpg"
-																		class="attachment-cafedia-foodmenu-thumb-tab size-cafedia-foodmenu-thumb-tab wp-post-image"
-																		alt="" /> <span><i
-																			class="ei ei-icon_plus"></i></span>
-																</a>
-															</div>
-
-															<div class="content">
-																<h3 class="title"><a href="#">Salads_2</a></h3>
-
-																<span class="price">1014.00</span>
-																<p>Have a look again</p>
-															</div>
-														</div><!-- /.food-item -->
-													</div>
+															<?php
+														}
+													}
+													 ?>
 
 
 												</div><!-- /.row -->
@@ -1032,48 +965,42 @@
 												aria-labelledby="desserts-tab">
 												<div class="row">
 
-													<div class="col-lg-6">
-														<div class="food-item">
-															<div class="food-thumb">
-																<a href="#">
-																	<img width="170" height="110"
-																		src="wp-content/uploads/2019/03/6-1-170x110.jpg"
-																		class="attachment-cafedia-foodmenu-thumb-tab size-cafedia-foodmenu-thumb-tab wp-post-image"
-																		alt="" /> <span><i
-																			class="ei ei-icon_plus"></i></span>
-																</a>
+													<?php
+													include 'connection.php';
+													$sql="select * from special_menu where active='True' and category='Desserts' order by id desc limit 2";
+													$result=mysqli_query($connection,$sql);
+													if($result){
+														while($row=$result->fetch_assoc()){
+															$name=$row['name'];
+															$photo=$row['photo'];
+															$price=$row['price'];
+															$description=$row['description'];
+															$id=$row['id']; ?>
+															<div class="col-lg-6">
+																<div class="food-item">
+																	<div class="food-thumb">
+																		<a href="#" data-toggle="modal" data-target="#modal-<?php echo $id; ?>">
+																			<img width="170" height="110"
+																				src="images/uploads/<?php echo $photo; ?>"
+																				class="attachment-cafedia-foodmenu-thumb-tab size-cafedia-foodmenu-thumb-tab wp-post-image"
+																				alt="" /> <span><i
+																					class="ei ei-icon_plus"></i></span>
+																		</a>
+																	</div>
+
+																	<div class="content">
+																		<h3 class="title"><a href="#"><?php echo $name; ?></a></h3>
+
+																		<span class="price">Kes. <?php echo $price; ?></span>
+																		<p>Have a look</p>
+																	</div>
+																</div><!-- /.food-item -->
 															</div>
 
-															<div class="content">
-																<h3 class="title"><a href="#">Desserts_1</a>
-																</h3>
-
-																<span class="price">1016.00</span>
-																<p>Have a look</p>
-															</div>
-														</div><!-- /.food-item -->
-													</div>
-
-													<div class="col-lg-6">
-														<div class="food-item">
-															<div class="food-thumb">
-																<a href="#">
-																	<img width="170" height="110"
-																		src="wp-content/uploads/2019/03/5-2-170x110.jpg"
-																		class="attachment-cafedia-foodmenu-thumb-tab size-cafedia-foodmenu-thumb-tab wp-post-image"
-																		alt="" /> <span><i
-																			class="ei ei-icon_plus"></i></span>
-																</a>
-															</div>
-
-															<div class="content">
-																<h3 class="title"><a href="#">Desserts_2</a></h3>
-
-																<span class="price">1010.00</span>
-																<p>Have a look again</p>
-															</div>
-														</div><!-- /.food-item -->
-													</div>
+															<?php
+														}
+													}
+													 ?>
 
 
 
@@ -1083,47 +1010,42 @@
 												aria-labelledby="drinks-tab">
 												<div class="row">
 
-													<div class="col-lg-6">
-														<div class="food-item">
-															<div class="food-thumb">
-																<a href="#">
-																	<img width="170" height="110"
-																		src="wp-content/uploads/2019/03/2-5-170x110.jpg"
-																		class="attachment-cafedia-foodmenu-thumb-tab size-cafedia-foodmenu-thumb-tab wp-post-image"
-																		alt="" /> <span><i
-																			class="ei ei-icon_plus"></i></span>
-																</a>
+													<?php
+													include 'connection.php';
+													$sql="select * from special_menu where active='True' and category='Drinks & Cocktails' order by id desc limit 2";
+													$result=mysqli_query($connection,$sql);
+													if($result){
+														while($row=$result->fetch_assoc()){
+															$name=$row['name'];
+															$photo=$row['photo'];
+															$price=$row['price'];
+															$description=$row['description'];
+															$id=$row['id']; ?>
+															<div class="col-lg-6">
+																<div class="food-item">
+																	<div class="food-thumb">
+																		<a href="#" data-toggle="modal" data-target="#modal-<?php echo $id; ?>">
+																			<img width="170" height="110"
+																				src="images/uploads/<?php echo $photo; ?>"
+																				class="attachment-cafedia-foodmenu-thumb-tab size-cafedia-foodmenu-thumb-tab wp-post-image"
+																				alt="" /> <span><i
+																					class="ei ei-icon_plus"></i></span>
+																		</a>
+																	</div>
+
+																	<div class="content">
+																		<h3 class="title"><a href="#"><?php echo $name; ?></a></h3>
+
+																		<span class="price">Kes. <?php echo $price; ?></span>
+																		<p>Have a look</p>
+																	</div>
+																</div><!-- /.food-item -->
 															</div>
 
-															<div class="content">
-																<h3 class="title"><a href="#">Drinks_1</a></h3>
-
-																<span class="price">1020.00</span>
-																<p>Have a look</p>
-															</div>
-														</div><!-- /.food-item -->
-													</div>
-
-													<div class="col-lg-6">
-														<div class="food-item">
-															<div class="food-thumb">
-																<a href="#">
-																	<img width="170" height="110"
-																		src="wp-content/uploads/2019/03/7-1-170x110.jpg"
-																		class="attachment-cafedia-foodmenu-thumb-tab size-cafedia-foodmenu-thumb-tab wp-post-image"
-																		alt="" /> <span><i
-																			class="ei ei-icon_plus"></i></span>
-																</a>
-															</div>
-
-															<div class="content">
-																<h3 class="title"><a href="#">Drinks_2</a></h3>
-
-																<span class="price">1014.00</span>
-																<p>HAve a look again</p>
-															</div>
-														</div><!-- /.food-item -->
-													</div>
+															<?php
+														}
+													}
+													 ?>
 
 												</div><!-- /.row -->
 											</div>
@@ -1739,125 +1661,49 @@
 							<div id="attorney-5d5fb9d050103" class="row cafedia_team_members-two"
 								style=" padding-top: 15px;">
 								<!-- the loop -->
-								<div class="col-lg-4">
-									<div class="team-member">
-										<div class="member-image">
-											<img src="wp-content/uploads/2019/chef3.jpg" alt="Chef">
+
+								<?php
+								include 'connection.php';
+								$sql="select * from employees where active='True' order by id desc limit 3";
+								$result=mysqli_query($connection,$sql);
+								if($result){
+									while($row=$result->fetch_assoc()){
+										$id=$row['id'];
+										$iname=$row['name'];
+										$photo=$row['photo'];
+										$position=$row['position']; ?>
+
+										<div class="col-lg-4">
+											<div class="team-member">
+												<div class="member-image">
+													<div style="height:10em" class="text-center">
+														<img style="max-height:10em;width: auto !important;margin-left:auto;margin-right:auto" src="images/uploads/<?php echo $photo; ?>" alt="<?php echo $name; ?>">
+													</div>
 
 
-											<div class="member-cont">
-												<ul class="member-link">
-													<li>
-														<a href="#" title="Facebook">
-															<i class="fa fa-facebook"></i>
-														</a>
-													</li>
-													<li>
-														<a href="#" title="Twitter">
-															<i class="fa fa-twitter"></i>
-														</a>
-													</li>
-													<li>
-														<a href="#" title="Linkedin">
-															<i class="fa fa-linkedin"></i>
-														</a>
-													</li>
-												</ul><!-- /.dt-social-link -->
-												<span class="separator"></span>
-												<p>Tel: +946 256 986 426</p>
-											</div>
-										</div><!-- /.item-img-wrapper -->
+													<div class="member-cont text-center">
+														<span class="separator"></span>
+														<p><?php echo $name; ?></p>
+													</div>
+												</div><!-- /.item-img-wrapper -->
 
-										<div class="member-bio">
+												<div class="member-bio text-center">
 
-											<h4 class="name">John Doe</h4>
+													<h4 class="name"><?php echo $name; ?></h4>
 
-											<span class="job">Sous Chef</span>
+													<span class="job"><?php echo $position; ?></span>
 
 
-										</div><!-- /.team-member -->
-									</div><!-- /.item-content-wrapper -->
-								</div><!-- /.col-lg-3 col-md-4 col-sm-6 -->
+												</div><!-- /.team-member -->
+											</div><!-- /.item-content-wrapper -->
+										</div><!-- /.col-lg-3 col-md-4 col-sm-6 -->
 
-								<div class="col-lg-4">
-									<div class="team-member">
-										<div class="member-image">
-											<img src="wp-content/uploads/2019/chef3.jpg" alt="John Doe">
-
-
-											<div class="member-cont">
-												<ul class="member-link">
-													<li>
-														<a href="#" title="Facebook">
-															<i class="fa fa-facebook"></i>
-														</a>
-													</li>
-													<li>
-														<a href="#" title="Twitter">
-															<i class="fa fa-twitter"></i>
-														</a>
-													</li>
-													<li>
-														<a href="#" title="Linkedin">
-															<i class="fa fa-linkedin"></i>
-														</a>
-													</li>
-												</ul><!-- /.dt-social-link -->
-												<span class="separator"></span>
-												<p>Tel: +946 256 986 426</p>
-											</div>
-										</div><!-- /.item-img-wrapper -->
-
-										<div class="member-bio">
-
-											<h4 class="name">John Doe</h4>
-
-											<span class="job">Master Chef</span>
+										<?php
+									}
+								}
+								?>
 
 
-										</div><!-- /.team-member -->
-									</div><!-- /.item-content-wrapper -->
-								</div><!-- /.col-lg-3 col-md-4 col-sm-6 -->
-
-								<div class="col-lg-4">
-									<div class="team-member">
-										<div class="member-image">
-											<img src="wp-content/uploads/2019/chef3.jpg" alt="JOhn Doe">
-
-
-											<div class="member-cont">
-												<ul class="member-link">
-													<li>
-														<a href="#" title="Facebook">
-															<i class="fa fa-facebook"></i>
-														</a>
-													</li>
-													<li>
-														<a href="#" title="Twitter">
-															<i class="fa fa-twitter"></i>
-														</a>
-													</li>
-													<li>
-														<a href="#" title="Linkedin">
-															<i class="fa fa-linkedin"></i>
-														</a>
-													</li>
-												</ul><!-- /.dt-social-link -->
-												<span class="separator"></span>
-												<p>Tel: +946 256 986 426</p>
-											</div>
-										</div><!-- /.item-img-wrapper -->
-
-										<div class="member-bio">
-
-											<h4 class="name">John Doe</h4>
-
-											<span class="job">CEO &amp; Founder</span>
-
-
-										</div><!-- /.team-member -->
-									</div><!-- /.item-content-wrapper -->
-								</div><!-- /.col-lg-3 col-md-4 col-sm-6 -->
 							</div><!-- /.team_members -->
 
 						</div>
@@ -2221,15 +2067,15 @@
 																			placeholder="Email" /></span>
 																</div>
 															</div>
-															<p> <span class="wpcf7-form-control-wrap massage"
+															<div class="col-md-12"> <span class="wpcf7-form-control-wrap massage"
 																	style="background-color: white !important; color: rgb(0, 0, 0) !important;"><textarea
 																		name="massage" cols="40" rows="10"
 																		class="wpcf7-form-control wpcf7-textarea wpcf7-validates-as-required"
 																		aria-required="true" aria-invalid="false"
-																		placeholder="Notes"></textarea></span><br />
+																		placeholder="Notes"></textarea></span><br /><br />
 																<input type="submit" value="Submit Now"
 																	class="wpcf7-form-control wpcf7-submit submit-btn cafe-btn" />
-															</p>
+															</div>
 														</div>
 													</div>
 													<div class="wpcf7-response-output wpcf7-display-none"></div>
@@ -2246,4 +2092,42 @@
 				</div>
 
 			</div>
+
+			<?php
+			include 'connection.php';
+			$sql="select * from special_menu where active='True' order by id desc";
+			$result=mysqli_query($connection,$sql);
+			if($result){
+				while($row=$result->fetch_assoc()){
+					$name=$row['name'];
+					$photo=$row['photo'];
+					$price=$row['price'];
+					$description=$row['description'];
+					$id=$row['id']; ?>
+			<!-- Modal Default -->
+			<div class="modal fade" id="modal-<?php echo $id; ?>" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+				<div class="modal-dialog modal-dialog-centered" role="document">
+					<div class="modal-content">
+						<div class="modal-header">
+							<h5 class="modal-title" id="exampleModalLongTitle"><?php echo $name; ?></h5>
+							<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+								<span aria-hidden="true">&times;</span>
+							</button>
+						</div>
+						<div class="modal-body">
+							<img src="images/uploads/<?php echo $photo; ?>" style="width:100%"><br><br>
+							<br><h3><?php echo $price; ?></h3><p><?php echo $description; ?></p>
+						</div>
+						<div class="modal-footer">
+							<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+						</div>
+					</div>
+				</div>
+			</div>
+		<?php }
+	}
+	?>
+
+
+
 			<?php include 'footer.php'; ?>
